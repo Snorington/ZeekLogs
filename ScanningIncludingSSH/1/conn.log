@@ -1,0 +1,23 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	conn
+#open	2024-07-08-06-12-02
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	service	duration	orig_bytes	resp_bytes	conn_state	local_orig	local_resp	missed_bytes	history	orig_pkts	orig_ip_bytes	resp_pkts	resp_ip_bytes	tunnel_parents
+#types	time	string	addr	port	addr	port	enum	string	interval	count	count	string	bool	bool	count	string	count	count	count	count	set[string]
+1718889803.765026	CsHHH82OrluLwu5Z8f	89.24.97.41	53793	51.89.167.188	445	tcp	-	3.077822	0	0	S0	F	F	0	S	2	104	0	0	-
+1718889807.337976	Cu49au1aofIT40QSBh	104.40.73.132	33584	51.89.167.188	5984	tcp	-	-	-	-	S0	F	F	0	S	1	40	0	0	-
+1718889812.889880	ClNoX737S4hBGUCOTa	89.24.97.41	53793	51.89.167.188	445	tcp	-	-	-	-	S0	F	F	0	S	1	48	0	0	-
+1718889817.069118	Cpq9551D01DU3QGLag	62.122.184.62	58863	51.89.167.188	9698	tcp	-	-	-	-	S0	F	F	0	S	1	40	0	0	-
+1718889828.356962	CC6EH2RbK7CjRzwOg	79.110.62.107	55346	51.89.167.188	50239	tcp	-	-	-	-	S0	F	F	0	S	1	40	0	0	-
+1718889830.281713	CfU7vz2Inouxz4qxn3	60.254.61.18	58812	51.89.167.188	445	tcp	-	-	-	-	S0	F	F	0	S	1	52	0	0	-
+1718889830.371248	C0D70x40aGWsM1aWz2	91.148.190.150	58476	51.89.167.188	559	tcp	-	-	-	-	S0	F	F	0	S	1	44	0	0	-
+1718889842.261347	C3JrxL2sYfoUyZhJ2l	139.99.1.148	8	51.89.167.188	0	icmp	-	-	-	-	OTH	F	F	0	-	1	32	0	0	-
+1718889816.743710	CF6O4l4l4HREHDdRZf	92.222.186.1	8	51.89.167.188	0	icmp	-	26.877716	12	0	OTH	F	F	0	-	3	96	0	0	-
+1718889812.862560	CxIzdO3ejo5DrxbyI6	167.114.37.1	8	51.89.167.188	0	icmp	-	30.957948	8	0	OTH	F	F	0	-	2	64	0	0	-
+1718889814.857712	CHtqAICFrL0mNQM8j	92.222.184.1	8	51.89.167.188	0	icmp	-	25.870054	12	0	OTH	F	F	0	-	3	96	0	0	-
+1718889802.458873	ChHq7o3sNnlPLIaaU3	116.86.225.118	58051	51.89.167.188	49995	tcp	-	49.601422	22464	0	OTH	F	F	0	AccDcccT	57483	2497224	0	0	-
+1718889835.467362	C5YZjJ2DcWa3f9O8zk	162.142.125.247	4450	51.89.167.188	46495	udp	-	-	-	-	S0	F	F	0	D	1	29	0	0	-
+1718889802.281971	CHb9MsmOLeOsum05b	51.89.167.188	49995	116.86.225.118	57980	tcp	-	1.069646	0	0	OTH	F	F	0	Ca	0	0	4	160	-
+#close	2024-07-08-06-12-02

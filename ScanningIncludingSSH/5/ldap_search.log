@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ldap_search
+#open	2024-07-08-06-13-51
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	message_id	scope	deref_aliases	base_object	result_count	result	diagnostic_message	filter	attributes
+#types	time	string	addr	port	addr	port	int	string	string	string	count	string	string	string	vector[string]
+1718898560.550319	Cg5PKT2CtOeu07hC6g	185.209.161.115	34609	51.89.167.188	389	1	base	never	-	0	-	-	(objectclass=*)	-
+#close	2024-07-08-06-13-52

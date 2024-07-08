@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2024-07-08-06-12-41
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	curve	server_name	resumed	last_alert	next_protocol	established	ssl_history	cert_chain_fps	client_cert_chain_fps	sni_matches_cert
+#types	time	string	addr	port	addr	port	string	string	string	string	bool	string	string	bool	string	vector[string]	vector[string]	bool
+1718889918.938504	CqumgB3Ad2peLvcZ0f	51.89.167.188	51628	172.67.194.202	443	-	-	-	-	F	handshake_failure	-	F	l	-	-	-
+1718889918.730568	CQ5t3S2NDS3NGuKPg5	172.69.34.191	21366	51.89.167.188	443	-	-	-	zenfulroots.online	F	-	-	F	CI	-	-	-
+#close	2024-07-08-06-12-41

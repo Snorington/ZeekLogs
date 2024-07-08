@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2024-07-08-06-12-41
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer	source
+#types	time	string	addr	port	addr	port	string	string	bool	string	string
+1718889899.779136	CBNqpP1pHP9eqGgQXh	116.86.225.118	58051	51.89.167.188	49995	bad_TCP_checksum	-	F	zeek	TCP
+1718889918.597309	CQ5t3S2NDS3NGuKPg5	172.69.34.191	21366	51.89.167.188	443	bad_TCP_checksum	-	F	zeek	TCP
+1718889918.730568	CQ5t3S2NDS3NGuKPg5	172.69.34.191	21366	51.89.167.188	443	data_before_established	-	F	zeek	TCP
+1718889918.918022	CrUDaO1uCygZnyPYGg	127.0.0.1	53540	127.0.0.53	53	bad_UDP_checksum	-	F	zeek	UDP
+1718889918.918833	CRzlHlYrmOHhSq23e	51.89.167.188	54371	213.186.33.99	53	bad_UDP_checksum	-	F	zeek	UDP
+1718889918.933078	CjAbM44B5TiDHhllQ2	51.89.167.188	51628	172.67.194.202	443	bad_TCP_checksum	-	F	zeek	TCP
+1718889918.934298	CjAbM44B5TiDHhllQ2	51.89.167.188	51628	172.67.194.202	443	active_connection_reuse	-	F	zeek	TCP
+1718889919.078545	CQ5t3S2NDS3NGuKPg5	172.69.34.191	21366	51.89.167.188	443	inappropriate_FIN	-	F	zeek	TCP
+#close	2024-07-08-06-12-41

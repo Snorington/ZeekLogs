@@ -1,0 +1,19 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	conn
+#open	2024-07-08-06-12-27
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	service	duration	orig_bytes	resp_bytes	conn_state	local_orig	local_resp	missed_bytes	history	orig_pkts	orig_ip_bytes	resp_pkts	resp_ip_bytes	tunnel_parents
+#types	time	string	addr	port	addr	port	enum	string	interval	count	count	string	bool	bool	count	string	count	count	count	count	set[string]
+1718889887.799024	CruI774h7CU6MhNQJ8	167.94.145.89	24671	51.89.167.188	48229	tcp	-	-	-	-	S0	F	F	0	S	1	60	0	0	-
+1718889892.186415	CTdybV2WpKMx1P0R1b	83.240.179.190	62628	51.89.167.188	445	tcp	-	-	-	-	S0	F	F	0	S	1	52	0	0	-
+1718889895.631330	CXGawg2df7hstzx73i	167.94.138.146	26563	51.89.167.188	8080	tcp	-	-	-	-	S0	F	F	0	S	1	60	0	0	-
+1718889898.383077	C5zpmi3m0cG07Mxxyf	147.185.133.30	52095	51.89.167.188	4737	tcp	-	-	-	-	S0	F	F	0	S	1	44	0	0	-
+1718889899.334708	Cdrec64bf897DNRfRb	48.216.198.20	49484	51.89.167.188	7574	tcp	-	-	-	-	S0	F	F	0	S	1	40	0	0	-
+1718889891.314207	CqT3Yj27N3BdeyVFd5	139.99.1.148	8	51.89.167.188	0	icmp	-	-	-	-	OTH	F	F	0	-	1	32	0	0	-
+1718889874.250091	C9GBDG10JRsmz0K86i	167.114.37.1	8	51.89.167.188	0	icmp	-	-	-	-	OTH	F	F	0	-	1	32	0	0	-
+1718889858.419869	CKRTae2d7l0R2skJw5	92.222.184.1	8	51.89.167.188	0	icmp	-	32.629656	12	0	OTH	F	F	0	-	3	96	0	0	-
+1718889858.355609	CLaJGQ149uYVJsnU4k	92.222.186.1	8	51.89.167.188	0	icmp	-	35.159321	12	0	OTH	F	F	0	-	3	96	0	0	-
+1718889852.060554	C3nSgY1EBfON9bAJxf	116.86.225.118	58051	51.89.167.188	49995	tcp	-	47.717799	22032	0	OTH	F	F	0	AccDccTc	56834	2394456	0	0	-
+#close	2024-07-08-06-12-27
