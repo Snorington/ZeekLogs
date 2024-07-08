@@ -1,0 +1,20 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	sip
+#open	2024-07-08-06-07-54
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	uri	date	request_from	request_to	response_from	response_to	reply_to	call_id	seq	subject	request_path	response_path	user_agent	status_code	status_msg	warning	request_body_len	response_body_len	content_type
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	string	string	string	string	string	string	vector[string]	vector[string]	string	count	string	string	count	count	string
+1718075547.399115	CQ75Lu4Ck6DmjexSji	185.243.5.55	5065	51.89.167.188	5060	0	OPTIONS	sip:100@51.89.167.188	-	"sipvicious"<sip:100@1.1.1.1>	"sipvicious"<sip:100@1.1.1.1>	-	-	-	718503697317424422633800	1 OPTIONS	-	SIP/2.0/UDP 127.0.0.1:5065	(empty)	friendly-scanner	-	-	-	0	-	-
+1718077221.198067	C47ZlQ2jd7LNalAgaf	78.31.71.229	41247	51.89.167.188	5060	0	INVITE	sip:100@51.89.167.188	-	"Cisco"<sip:100@1.1.1.1>	"Cisco"<sip:100@1.1.1.1>	-	-	-	255654373653463804352946	1 INVITE	-	SIP/2.0/UDP 78.31.71.229:0	(empty)	PBX	-	-	-	0	-	-
+1718077262.084233	C4Atzo3aeKh5NgPiL9	93.186.201.102	35605	51.89.167.188	5060	0	INVITE	sip:100@51.89.167.188	-	"FPBX"<sip:100@1.1.1.1>	"FPBX"<sip:100@1.1.1.1>	-	-	-	635153848083647137097856	1 INVITE	-	SIP/2.0/UDP 93.186.201.102:0	(empty)	PBX	-	-	-	0	-	-
+1718082354.579588	CtIRzv2oSJ9HLog13g	104.168.113.153	5060	51.89.167.188	5060	0	OPTIONS	sip:100@51.89.167.188	-	"sipvicious"<sip:100@1.1.1.1>	"sipvicious"<sip:100@1.1.1.1>	-	-	-	244493174791371690012008	1 OPTIONS	-	SIP/2.0/UDP 104.168.113.153:5060	(empty)	friendly-scanner	-	-	-	0	-	-
+1718084882.373734	CqSS6a1i5QYIJG1Sfl	185.243.5.55	5123	51.89.167.188	5060	0	OPTIONS	sip:100@51.89.167.188	-	"sipvicious"<sip:100@1.1.1.1>	"sipvicious"<sip:100@1.1.1.1>	-	-	-	19360939691508873181602	1 OPTIONS	-	SIP/2.0/UDP 127.0.0.1:5123	(empty)	friendly-scanner	-	-	-	0	-	-
+1718090718.522259	CabBsc22GMCtJYj5D9	173.231.184.125	5064	51.89.167.188	5060	0	INVITE	sip:100@51.89.167.188	-	"sipvicious"<sip:100@1.1.1.1>	"sipvicious"<sip:100@1.1.1.1>	-	-	-	291493283561998420244407	1 INVITE	-	SIP/2.0/UDP 173.231.184.125:5064	(empty)	friendly-scanner	-	-	-	0	-	-
+1718092235.201316	Ckw9DE31VSFrtyQp8k	185.243.5.55	5108	51.89.167.188	5060	0	OPTIONS	sip:100@51.89.167.188	-	"sipvicious"<sip:100@1.1.1.1>	"sipvicious"<sip:100@1.1.1.1>	-	-	-	457753337278973334773996	1 OPTIONS	-	SIP/2.0/UDP 127.0.0.1:5108	(empty)	friendly-scanner	-	-	-	0	-	-
+1718098065.317936	CpvtHj40tbBVVCPZD6	143.255.183.112	5061	51.89.167.188	5060	0	OPTIONS	sip:100@51.89.167.188	-	"sipvicious"<sip:100@1.1.1.1>	"sipvicious"<sip:100@1.1.1.1>	-	-	-	625135478300836473853588	1 OPTIONS	-	SIP/2.0/UDP 127.0.0.1:5061	(empty)	friendly-scanner	-	-	-	0	-	-
+1718098914.020611	CY8UvS3pO2kcbat6U5	185.243.5.55	5090	51.89.167.188	5060	0	OPTIONS	sip:100@51.89.167.188	-	"sipvicious"<sip:100@1.1.1.1>	"sipvicious"<sip:100@1.1.1.1>	-	-	-	615995687240584815823940	1 OPTIONS	-	SIP/2.0/UDP 127.0.0.1:5090	(empty)	friendly-scanner	-	-	-	0	-	-
+1718113053.587433	C1O7lT3990AOuemEU6	87.98.243.61	4040	51.89.167.188	5060	0	REGISTER	sip:chinamobile.com	-	<sip:me@chinamobile.com>	<sip:me@chinamobile.com>	-	-	-	QKuDSFb5gicle12	1 REGISTER	-	SIP/2.0/UDP 87.98.243.61:4040	(empty)	Avaya Communicator for iPhone	-	-	-	0	-	-
+1718117465.922016	CPTkvv1s7OhSSzWkKg	199.204.97.10	5073	51.89.167.188	5060	0	OPTIONS	sip:100@51.89.167.188	-	"sipvicious"<sip:100@1.1.1.1>	"sipvicious"<sip:100@1.1.1.1>	-	-	-	837783569467501059299139	1 OPTIONS	-	SIP/2.0/UDP 199.204.97.10:5073	(empty)	friendly-scanner	-	-	-	0	-	-
+#close	2024-07-08-06-07-59

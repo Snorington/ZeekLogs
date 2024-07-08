@@ -1,0 +1,21 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	snmp
+#open	2024-07-08-06-07-53
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	duration	version	community	get_requests	get_bulk_requests	get_responses	set_requests	display_string	up_since
+#types	time	string	addr	port	addr	port	interval	string	string	count	count	count	count	string	time
+1718075253.979520	CfP6LG1ow2Ujo21Ylj	95.214.53.134	26769	51.89.167.188	161	0.000000	2c	public	0	1	0	0	-	-
+1718075520.570072	CE9YJe2w3TOdtPD3Y5	223.113.128.138	40044	51.89.167.188	161	0.000000	1	public	1	0	0	0	-	-
+1718075840.621649	Cy0Bz54D7PdEc7KHO2	223.113.128.138	54748	51.89.167.188	161	0.000000	3	-	0	0	0	0	-	-
+1718076030.159398	CeB5yo3deUqq3liFZ	71.6.232.28	37878	51.89.167.188	161	0.000000	2c	public	1	0	0	0	-	-
+1718076920.438788	C8zCOk12lIZdrxv7c	64.62.197.50	59132	51.89.167.188	161	0.000000	2c	public	4	0	0	0	-	-
+1718088040.433867	C6HcAKPnifD2i7gz	206.168.34.161	60554	51.89.167.188	161	0.000000	2c	public	1	0	0	0	-	-
+1718093542.994481	C80Eom3eVx0CaQY7Fi	198.235.24.119	53824	51.89.167.188	161	0.000000	2c	public	1	0	0	0	-	-
+1718093976.486186	C0hwcd4fQo0F3fGu93	95.214.53.134	3290	51.89.167.188	161	0.000000	2c	public	0	1	0	0	-	-
+1718095196.852550	CEpwNt4QPHXZn2ia2c	206.168.34.170	52804	51.89.167.188	161	0.000000	3	-	0	0	0	0	-	-
+1718098698.263471	CLoLt13e5Cq1SPQYRh	122.228.23.224	10366	51.89.167.188	161	0.000000	2c	public	0	1	0	0	-	-
+1718112097.918342	CRrbNi2huWVSIehpNd	95.214.53.134	65336	51.89.167.188	161	0.000000	2c	public	0	1	0	0	-	-
+1718118888.623414	ClZu1x1KkI1NEORJz2	115.231.78.3	59295	51.89.167.188	161	0.000000	1	public	1	0	0	0	-	-
+#close	2024-07-08-06-07-59

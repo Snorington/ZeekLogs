@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	sip
+#open	2024-07-08-06-07-33
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	uri	date	request_from	request_to	response_from	response_to	reply_to	call_id	seq	subject	request_path	response_path	user_agent	status_code	status_msg	warning	request_body_len	response_body_len	content_type
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	string	string	string	string	string	string	vector[string]	vector[string]	string	count	string	string	count	count	string
+1718062889.345471	CT8BxW1a38WiL2l83h	185.243.5.55	5089	51.89.167.188	5060	0	OPTIONS	sip:100@51.89.167.188	-	"sipvicious"<sip:100@1.1.1.1>	"sipvicious"<sip:100@1.1.1.1>	-	-	-	530448418123632148575948	1 OPTIONS	-	SIP/2.0/UDP 127.0.0.1:5089	(empty)	friendly-scanner	-	-	-	0	-	-
+#close	2024-07-08-06-07-44

@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	analyzer
+#open	2024-07-08-06-07-11
+#fields	ts	cause	analyzer_kind	analyzer_name	uid	fuid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	failure_reason	failure_data
+#types	time	string	string	string	string	string	addr	port	addr	port	string	string
+1718056265.326082	violation	protocol	SIP	CDSDEU2kcF6T7PFCKh	-	167.71.228.234	62574	51.89.167.188	5060	Binpac exception: binpac exception: string mismatch at /src/zeek/src/analyzer/protocol/sip/sip-protocol.pac:25: \x0aexpected pattern: "[[:alnum:]@[:punct:]]+"\x0aactual data: "\x01\x03I\x0b|a\x1a\x18SA"	-
+#close	2024-07-08-06-07-19

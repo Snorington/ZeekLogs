@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2024-07-08-06-05-46
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	version	user_agent	origin	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	tags	username	password	proxied	orig_fuids	orig_filenames	orig_mime_types	resp_fuids	resp_filenames	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	string	string	count	count	count	string	count	string	set[enum]	string	string	set[string]	vector[string]	vector[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1718044101.962077	CYlXng2EXYTuQ2hzIj	162.158.174.148	37752	51.89.167.188	80	1	GET	zenfulroots.online	/wp-login.php	-	-	Mozilla/5.0 (X11; Fedora; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/95.0	-	0	0	-	-	-	-	(empty)	-	-	X-FORWARDED-FOR -> 67.222.157.170	-	-	-	-	-	-
+1718044102.596415	CwiJE32whwHvymsJ3h	162.158.174.127	31716	51.89.167.188	80	1	GET	zenfulroots.online	///?author=1	-	-	Mozilla/5.0 (X11; Fedora; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/95.0	-	0	0	-	-	-	-	(empty)	-	-	X-FORWARDED-FOR -> 67.222.157.170	-	-	-	-	-	-
+1718044103.396674	C89bzt4DwPUlzBEcd2	172.69.67.151	43386	51.89.167.188	80	1	GET	zenfulroots.online	///wp-json/wp/v2/users/	-	-	Mozilla/5.0 (X11; Fedora; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/95.0	-	0	0	-	-	-	-	(empty)	-	-	X-FORWARDED-FOR -> 67.222.157.170	-	-	-	-	-	-
+1718044103.979426	C1x4h34OcELMpvxur4	162.158.175.145	57672	51.89.167.188	80	1	GET	zenfulroots.online	///?author=2	-	-	Mozilla/5.0 (X11; Fedora; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/95.0	-	0	0	-	-	-	-	(empty)	-	-	X-FORWARDED-FOR -> 67.222.157.170	-	-	-	-	-	-
+1718046418.940206	CNopPw4YxDGFd8GSzg	172.69.135.39	51506	51.89.167.188	80	1	GET	zenfulroots.online	/	-	-	Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1	-	0	0	-	-	-	-	(empty)	-	-	X-FORWARDED-FOR -> 43.159.128.68	-	-	-	-	-	-
+#close	2024-07-08-06-05-54

@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2024-07-08-06-07-56
+#fields	ts	fuid	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted	extracted_cutoff	extracted_size
+#types	time	string	string	addr	port	addr	port	string	count	set[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string	bool	count
+1718094020.779507	FyiKTy1M3utZ7oeah4	CqM5FV1X7Jlc2ZcHee	51.89.167.188	55880	104.86.110.232	80	HTTP	0	OCSP_REPLY	application/ocsp-response	-	0.000000	F	F	503	503	0	0	F	-	-	-	-	-	-	-
+#close	2024-07-08-06-07-59

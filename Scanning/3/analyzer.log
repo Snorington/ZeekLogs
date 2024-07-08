@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	analyzer
+#open	2024-07-08-06-06-09
+#fields	ts	cause	analyzer_kind	analyzer_name	uid	fuid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	failure_reason	failure_data
+#types	time	string	string	string	string	string	addr	port	addr	port	string	string
+1718052183.030576	violation	protocol	DNS	CuNZTc2drbBPwdd947	-	51.89.167.188	8083	43.163.207.191	5353	DNS_Conn_count_too_large	-
+#close	2024-07-08-06-06-13

@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	analyzer
+#open	2024-07-08-06-07-41
+#fields	ts	cause	analyzer_kind	analyzer_name	uid	fuid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	failure_reason	failure_data
+#types	time	string	string	string	string	string	addr	port	addr	port	string	string
+1718067715.498851	violation	protocol	RDPEUDP	CHxa4U1gdw6g3N95l	-	64.62.156.42	19941	51.89.167.188	3389	Binpac exception: binpac exception: invalid case: /src/zeek/src/analyzer/protocol/rdp/rdpeudp-protocol.pac:34:has_synex_payload: 0 (true)	-
+#close	2024-07-08-06-07-44

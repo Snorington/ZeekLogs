@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	analyzer
+#open	2024-07-08-06-03-49
+#fields	ts	cause	analyzer_kind	analyzer_name	uid	fuid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	failure_reason	failure_data
+#types	time	string	string	string	string	string	addr	port	addr	port	string	string
+1718040602.613027	violation	protocol	DNS	CQObS6445zYqo2pYBi	-	51.89.167.188	8083	15.237.208.94	5353	DNS_Conn_count_too_large	-
+1718042648.690299	violation	protocol	SIP	CBlsOH2lKOcfmkFmt4	-	51.89.167.188	30301	38.7.199.216	5060	Binpac exception: binpac exception: string mismatch at /src/zeek/src/analyzer/protocol/sip/sip-protocol.pac:25: \x0aexpected pattern: "[[:alnum:]@[:punct:]]+"\x0aactual data: "\x17* \x04\x020?p\x10K^ep\x0eSp/\x09\x03[IlG\x15\x13h32*"	-
+1718042986.866529	violation	protocol	KRB	CxE2oYRNaHrvrE3w6	-	199.45.154.181	5184	51.89.167.188	88	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:len: 2 > 1	-
+#close	2024-07-08-06-03-54

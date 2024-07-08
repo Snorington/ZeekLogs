@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	snmp
+#open	2024-07-08-06-07-11
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	duration	version	community	get_requests	get_bulk_requests	get_responses	set_requests	display_string	up_since
+#types	time	string	addr	port	addr	port	interval	string	string	count	count	count	count	string	time
+1718056481.236337	CPHswX2vnn8tAvdwGa	95.214.53.134	5089	51.89.167.188	161	0.000000	2c	public	0	1	0	0	-	-
+#close	2024-07-08-06-07-19

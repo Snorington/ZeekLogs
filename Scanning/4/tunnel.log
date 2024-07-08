@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	tunnel
+#open	2024-07-08-06-07-11
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	tunnel_type	action
+#types	time	string	addr	port	addr	port	enum	enum
+1718056490.716649	ChmXxF4XpMCvC1lzUe	114.32.211.183	0	51.89.167.188	0	Tunnel::GRE	Tunnel::DISCOVER
+1718060091.558774	ChmXxF4XpMCvC1lzUe	114.32.211.183	0	51.89.167.188	0	Tunnel::GRE	Tunnel::EXPIRE
+#close	2024-07-08-06-07-19
