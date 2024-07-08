@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2024-07-08-06-28-01
+#fields	ts	fuid	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted	extracted_cutoff	extracted_size
+#types	time	string	string	addr	port	addr	port	string	count	set[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string	bool	count
+1702656118.471505	FnKhk43OUzvIIdiGTe	CBfuWs1D5MG1VwpIB3	10.12.15.101	51074	68.66.226.89	80	HTTP	0	(empty)	text/plain	-	0.000000	F	F	204	-	0	0	F	-	-	-	-	-	-	-
+1702656123.652986	F8G3qrVI6ervh5SW2	CtV0214CFzLcHrr7Ac	10.12.15.101	51076	68.66.226.89	80	HTTP	0	(empty)	application/zip	GURVU.zip	1.084313	F	F	117213	-	0	0	F	-	-	-	-	-	-	-
+#close	2024-07-08-06-28-01

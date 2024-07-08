@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ldap
+#open	2024-07-08-06-27-46
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	message_id	version	opcode	result	diagnostic_message	object	argument
+#types	time	string	addr	port	addr	port	int	int	string	string	string	string	string
+1702924253.574076	CSQ6ylQvktPnml4Pe	10.0.0.101	55105	10.0.0.10	389	3	3	bind SASL	success	-	-	GSS-SPNEGO
+1702924253.692512	CwlJ22RAUSpu4c9i	10.0.0.101	55107	10.0.0.10	389	7	3	bind SASL	success	-	-	GSS-SPNEGO
+1702924475.960519	CGC7fX2MSUrp33ddg	10.0.0.101	55116	10.0.0.10	389	15	3	bind SASL	success	-	-	GSS-SPNEGO
+1702924475.972247	CHRhPU3bPzCDpD0Qy6	10.0.0.101	55117	10.0.0.10	389	19	3	bind SASL	success	-	-	GSS-SPNEGO
+1702926047.936294	CXLApmRfkisbXkxN	10.0.0.101	55212	10.0.0.10	389	3	3	bind SASL	success	-	-	GSS-SPNEGO
+1702926047.947932	CSbuWw4ZpRApVwuB5j	10.0.0.101	55213	10.0.0.10	389	7	3	bind SASL	success	-	-	GSS-SPNEGO
+1702926050.754786	CQlAK21ZgjurtyIde2	10.0.0.101	55223	10.0.0.10	389	22	3	bind SASL	success	-	-	GSS-SPNEGO
+#close	2024-07-08-06-27-46

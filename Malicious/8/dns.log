@@ -1,0 +1,55 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2024-07-08-06-27-45
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	rtt	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	interval	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1702920834.113353	CN9BfeRCbl99HJDO7	10.0.0.101	51024	10.0.0.10	53	udp	14369	0.734847	tsdandassociates.co.sz	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	41.185.8.61	1798.000000	F
+1702920868.019594	CtmJ8v1kygmfsnOSwi	10.0.0.101	63191	10.0.0.10	53	udp	43011	0.092524	shakyastatuestrade.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	143.95.249.177	14400.000000	F
+1702920868.044231	CtmJ8v1kygmfsnOSwi	10.0.0.101	63191	10.0.0.10	53	udp	43011	-	shakyastatuestrade.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1702920957.056493	CRvLxxyJs9U4qh8E4	10.0.0.101	52426	10.0.0.10	53	udp	6378	0.056596	v10.events.data.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	win-global-asimov-leafs-events-data.trafficmanager.net,onedscolprdcus00.centralus.cloudapp.azure.com,13.89.178.26	37.000000,57.000000,7.000000	F
+1702920957.073917	CRvLxxyJs9U4qh8E4	10.0.0.101	52426	10.0.0.10	53	udp	6378	-	v10.events.data.microsoft.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1702921032.155359	CDIGfp11aPABh8irL9	10.0.0.101	62640	10.0.0.10	53	udp	64747	-	wpad.sneakytree.farm	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1702921339.660704	C4IKkH1b0t9gti5oDk	10.0.0.101	62857	10.0.0.10	53	udp	3621	0.056370	checkappexec.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	wd-prod-ss.trafficmanager.net,wd-prod-ss-us-northcentral-1-fe.northcentralus.cloudapp.azure.com,20.98.40.52	2452.000000,299.000000,8.000000	F
+1702921331.443600	CnbVQt2GJX2pKXGQcd	10.0.0.101	137	10.0.0.255	137	udp	38838	-	WIN-BQHVFR3MVSA	1	C_INTERNET	32	NIMLOC	-	-	F	F	T	F	1	-	-	F
+1702921331.449178	CnbVQt2GJX2pKXGQcd	10.0.0.101	137	10.0.0.255	137	udp	38841	-	SNEAKYTREE-FARM	1	C_INTERNET	32	NIMLOC	-	-	F	F	T	F	1	-	-	F
+1702921331.449436	CT9juU2wSmCYVYom41	10.0.0.101	137	10.0.0.10	137	udp	38841	-	-	-	-	-	-	0	NOERROR	F	F	F	F	0	-	-	F
+1702921331.443829	CT9juU2wSmCYVYom41	10.0.0.101	137	10.0.0.10	137	udp	38838	-	-	-	-	-	-	0	NOERROR	F	F	F	F	0	-	-	F
+1702921331.449804	CT9juU2wSmCYVYom41	10.0.0.101	137	10.0.0.10	137	udp	39533	-	-	-	-	-	-	0	NOERROR	F	F	F	F	0	-	-	F
+1702921339.688905	C4IKkH1b0t9gti5oDk	10.0.0.101	62857	10.0.0.10	53	udp	3621	-	checkappexec.microsoft.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1702921349.910626	CTQ0ZapwIwE99wGc1	10.0.0.101	52374	10.0.0.10	53	udp	41294	0.044938	mobile.events.data.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	mobile.events.data.trafficmanager.net,onedscolprdwus15.westus.cloudapp.azure.com,20.189.173.18	23.000000,53.000000,3.000000	F
+1702921349.928772	CTQ0ZapwIwE99wGc1	10.0.0.101	52374	10.0.0.10	53	udp	41294	-	mobile.events.data.microsoft.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1702921632.131908	CDt53iVPZqkHEvNy7	10.0.0.101	50149	10.0.0.10	53	udp	15863	-	wpad.sneakytree.farm	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1702922232.116628	CqANE72F0wbGl7D31	10.0.0.101	60521	10.0.0.10	53	udp	53694	-	wpad.sneakytree.farm	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1702922479.954515	CL8ac42vqMOjfOeOh3	10.0.0.101	56216	10.0.0.10	53	udp	55106	0.000296	win-bqhvfr3mvsa.sneakytree.farm	1	C_INTERNET	1	A	0	NOERROR	T	F	T	T	0	10.0.0.10	3600.000000	F
+1702922757.068142	Ccc95GdOo47zLA4pk	10.0.0.101	54846	10.0.0.10	53	udp	50676	0.050446	v10.events.data.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	win-global-asimov-leafs-events-data.trafficmanager.net,onedscolprdaus02.australiasoutheast.cloudapp.azure.com,104.46.162.226	73.000000,1.000000,3.000000	F
+1702922757.087450	Ccc95GdOo47zLA4pk	10.0.0.101	54846	10.0.0.10	53	udp	50676	-	v10.events.data.microsoft.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1702922832.098009	C3xUow4pX4ogTVJCO6	10.0.0.101	62662	10.0.0.10	53	udp	38390	-	wpad.sneakytree.farm	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1702923432.082211	CEaXob37erHFq1EqQj	10.0.0.101	54078	10.0.0.10	53	udp	32597	-	wpad.sneakytree.farm	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1702924032.063182	CiDFt3uCiF9uNL4wg	10.0.0.101	61660	10.0.0.10	53	udp	12847	-	wpad.sneakytree.farm	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1702924253.254730	C3h5632oKQG38Tbyy3	10.0.0.101	49884	10.0.0.10	53	udp	55787	0.000307	win-bqhvfr3mvsa.sneakytree.farm	1	C_INTERNET	1	A	0	NOERROR	T	F	T	T	0	10.0.0.10	3600.000000	F
+1702924557.024249	CYIAhb1TpYlo1dr7c2	10.0.0.101	57532	10.0.0.10	53	udp	65010	0.036303	v10.events.data.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	win-global-asimov-leafs-events-data.trafficmanager.net,onedscolprdwus01.westus.cloudapp.azure.com,20.189.173.2	97.000000,7.000000,1.000000	F
+1702924557.053733	CYIAhb1TpYlo1dr7c2	10.0.0.101	57532	10.0.0.10	53	udp	65010	-	v10.events.data.microsoft.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1702924632.050917	C2g1Xc3EozE0uEuql9	10.0.0.101	56159	10.0.0.10	53	udp	13003	-	wpad.sneakytree.farm	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1702925232.044682	CsGRM838RkzvyXGh44	10.0.0.101	63062	10.0.0.10	53	udp	11276	-	wpad.sneakytree.farm	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1702925832.028339	C6o0LCeP023PgEI0h	10.0.0.101	54506	10.0.0.10	53	udp	34571	-	wpad.sneakytree.farm	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1702925888.276258	CQCqjr1tmkISf8zSP2	10.0.0.101	59446	10.0.0.10	53	udp	40650	0.044747	masterunis.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	207.246.99.159	300.000000	F
+1702925888.304503	CQCqjr1tmkISf8zSP2	10.0.0.101	59446	10.0.0.10	53	udp	40650	-	masterunis.net	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1702925986.584143	CNi5ROaeM7qlm9blh	10.0.0.101	137	10.0.0.255	137	udp	38851	-	WIN-BQHVFR3MVSA	1	C_INTERNET	32	NIMLOC	-	-	F	F	T	F	1	-	-	F
+1702925986.587611	CNi5ROaeM7qlm9blh	10.0.0.101	137	10.0.0.255	137	udp	38854	-	SNEAKYTREE-FARM	1	C_INTERNET	32	NIMLOC	-	-	F	F	T	F	1	-	-	F
+1702925986.587753	Cjvl0h2HPhHV7QDcmc	10.0.0.101	137	10.0.0.10	137	udp	38854	-	-	-	-	-	-	0	NOERROR	F	F	F	F	0	-	-	F
+1702925986.587882	Cjvl0h2HPhHV7QDcmc	10.0.0.101	137	10.0.0.10	137	udp	39596	-	-	-	-	-	-	0	NOERROR	F	F	F	F	0	-	-	F
+1702925986.584394	Cjvl0h2HPhHV7QDcmc	10.0.0.101	137	10.0.0.10	137	udp	38851	-	-	-	-	-	-	0	NOERROR	F	F	F	F	0	-	-	F
+1702926048.026453	CQ01bsqmd7vGiuBj5	10.0.0.101	55454	10.0.0.10	53	udp	23651	0.000273	desktop-67fejqa.sneakytree.farm	1	C_INTERNET	1	A	0	NOERROR	T	F	T	T	0	10.0.0.97	1200.000000	F
+1702926048.026567	ClPMcE3oLeebLfKp5l	10.0.0.101	51572	10.0.0.10	53	udp	19124	0.000196	desktop-6kt4eap.sneakytree.farm	1	C_INTERNET	1	A	0	NOERROR	T	F	T	T	0	10.0.0.99	1200.000000	F
+1702926048.027219	CSld2F4vorHoeJpiqg	10.0.0.101	49393	10.0.0.10	53	udp	31262	0.000321	desktop-rt3yncp.sneakytree.farm	1	C_INTERNET	1	A	0	NOERROR	T	F	T	T	0	10.0.0.100	1200.000000	F
+1702926048.027294	CEYH84xEdNZhsVeg	10.0.0.101	55341	10.0.0.10	53	udp	53535	0.000344	desktop-hl74nvf.sneakytree.farm	1	C_INTERNET	1	A	0	NOERROR	T	F	T	T	0	10.0.0.98	1200.000000	F
+1702926079.872303	CaRvy1uYznu7p43Wl	10.0.0.101	56769	10.0.0.10	53	udp	38904	0.000297	win-bqhvfr3mvsa.sneakytree.farm	1	C_INTERNET	1	A	0	NOERROR	T	F	T	T	0	10.0.0.10	3600.000000	F
+1702926286.099723	CXvvdE1m76hrU2yNr1	10.0.0.101	50628	10.0.0.10	53	udp	41517	0.060575	checkappexec.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	wd-prod-ss.trafficmanager.net,wd-prod-ss-us-east-2-fe.eastus.cloudapp.azure.com,20.246.247.192	97.000000,182.000000,3.000000	F
+1702926286.126538	CXvvdE1m76hrU2yNr1	10.0.0.101	50628	10.0.0.10	53	udp	41517	-	checkappexec.microsoft.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1702926356.981736	CPyUi03ltc6tQcPl1j	10.0.0.101	54016	10.0.0.10	53	udp	41121	0.052754	v10.events.data.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	win-global-asimov-leafs-events-data.trafficmanager.net,onedscolprdcus16.centralus.cloudapp.azure.com,52.182.143.213	96.000000,46.000000,6.000000	F
+1702926357.002023	CPyUi03ltc6tQcPl1j	10.0.0.101	54016	10.0.0.10	53	udp	41121	-	v10.events.data.microsoft.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1702926432.009985	COZcbppjLFVuzXd64	10.0.0.101	58753	10.0.0.10	53	udp	58212	-	wpad.sneakytree.farm	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+#close	2024-07-08-06-27-46

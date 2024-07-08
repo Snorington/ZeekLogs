@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	quic
+#open	2024-07-08-06-26-59
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	client_initial_dcid	client_scid	server_scid	server_name	client_protocol	history
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	string
+1717581785.213583	Ci0viCHeIF5j8YWXk	71.6.134.235	44290	203.161.44.208	443	unknown-fa1a1a1a	717569637363616e	(empty)	-	-	-	U
+1717671352.361419	CIkYf24XHZVqBMOdh	138.246.253.15	55918	203.161.44.208	443	unknown-1a1a1a1a	5343414e4e494e47	12345678901234567890	-	-	-	U
+1717775536.691408	Cncjsa30pKA3qUyIm2	137.226.113.44	60306	203.161.44.208	443	1	0c0615e8d361130a07	(empty)	-	www.wiresharkworkshop.online	h3	IS
+#close	2024-07-08-06-27-13

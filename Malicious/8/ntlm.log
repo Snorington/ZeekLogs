@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ntlm
+#open	2024-07-08-06-27-45
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	username	hostname	domainname	server_nb_computer_name	server_dns_computer_name	server_tree_name	success
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	bool
+1702920844.554964	CDfNQv1LjyNOYKenja	10.0.0.101	55053	10.0.0.10	139	-	DESKTOP-JSTG3H4	-	WIN-BQHVFR3MVSA	WIN-BQHVFR3MVSA.sneakytree.farm	sneakytree.farm	T
+1702921077.718293	CiB3ew1IWnxCCwd5F7	10.0.0.101	55063	10.0.0.10	139	-	DESKTOP-JSTG3H4	-	WIN-BQHVFR3MVSA	WIN-BQHVFR3MVSA.sneakytree.farm	sneakytree.farm	T
+1702921331.445630	Clwyon1CUcNqRpZ0Ug	10.0.0.101	55068	10.0.0.10	139	-	DESKTOP-JSTG3H4	-	WIN-BQHVFR3MVSA	WIN-BQHVFR3MVSA.sneakytree.farm	sneakytree.farm	T
+1702925986.585437	Ce2MQA2afpWlIrGVXa	10.0.0.101	55180	10.0.0.10	139	-	DESKTOP-JSTG3H4	-	WIN-BQHVFR3MVSA	WIN-BQHVFR3MVSA.sneakytree.farm	sneakytree.farm	T
+#close	2024-07-08-06-27-46

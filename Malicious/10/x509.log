@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	x509
+#open	2024-07-08-06-28-14
+#fields	ts	fingerprint	certificate.version	certificate.serial	certificate.subject	certificate.issuer	certificate.not_valid_before	certificate.not_valid_after	certificate.key_alg	certificate.sig_alg	certificate.key_type	certificate.key_length	certificate.exponent	certificate.curve	san.dns	san.uri	san.email	san.ip	basic_constraints.ca	basic_constraints.path_len	host_cert	client_cert
+#types	time	string	count	string	string	string	time	time	string	string	string	count	string	string	vector[string]	vector[string]	vector[string]	vector[addr]	bool	count	bool	bool
+1697047098.952203	cdaf656800ac61ffa8584b5eec5baef5470a3c8e2a931a83c8d04c0265fa6238	3	025DFD5F5900843047BF724E32F6A817	CN=*.dropbox.com,O=Dropbox\\, Inc,L=San Francisco,ST=California,C=US	CN=DigiCert TLS RSA SHA256 2020 CA1,O=DigiCert Inc,C=US	1665705600.000000	1700006399.000000	rsaEncryption	sha256WithRSAEncryption	rsa	2048	65537	-	*.dropbox.com,dropbox.com	-	-	-	F	-	T	F
+1697047098.952203	52274c57ce4dee3b49db7a7ff708c040f771898b3be88725a86fb4430182fe14	3	06D8D904D5584346F68A2FA754227EC4	CN=DigiCert TLS RSA SHA256 2020 CA1,O=DigiCert Inc,C=US	CN=DigiCert Global Root CA,OU=www.digicert.com,O=DigiCert Inc,C=US	1618358400.000000	1933891199.000000	rsaEncryption	sha256WithRSAEncryption	rsa	2048	65537	-	-	-	-	-	T	0	F	F
+1697047099.904134	fcf44ab4f5ca29a318c9fabfe6e8ac5967bb2e20223dbc24e8dde45592ad9e0a	3	0BF8A4263B74EAABA18FE86DA920E30F	CN=dl.dropbox.com,O=Dropbox\\, Inc,L=San Francisco,ST=California,C=US	CN=DigiCert TLS RSA SHA256 2020 CA1,O=DigiCert Inc,C=US	1676332800.000000	1710633599.000000	rsaEncryption	sha256WithRSAEncryption	rsa	2048	65537	-	dl.dropbox.com,*.dl-au.dropboxusercontent.com,*.dl-eu.dropboxusercontent.com,*.dl-jp.dropboxusercontent.com,*.dl-uk.dropboxusercontent.com,*.dl.dropboxusercontent.com,dl-au.dropbox.com,dl-au.dropboxusercontent.com,dl-eu.dropbox.com,dl-eu.dropboxusercontent.com,dl-jp.dropbox.com,dl-jp.dropboxusercontent.com,dl-uk.dropbox.com,dl-uk.dropboxusercontent.com,dl-web-au.dropbox.com,dl-web-eu.dropbox.com,dl-web-jp.dropbox.com,dl-web-uk.dropbox.com,dl-web.dropbox.com,dl.dropboxusercontent.com,files-au.dropbox.com,files-eu.dropbox.com,files-jp.dropbox.com,files-uk.dropbox.com,files.dropbox.com,showbox-au.dropbox.com,showbox-eu.dropbox.com,showbox-jp.dropbox.com,showbox-uk.dropbox.com,showbox.dropbox.com	-	-	-	F	-	T	F
+#close	2024-07-08-06-28-14

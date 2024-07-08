@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	analyzer
+#open	2024-07-08-06-27-45
+#fields	ts	cause	analyzer_kind	analyzer_name	uid	fuid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	failure_reason	failure_data
+#types	time	string	string	string	string	string	addr	port	addr	port	string	string
+1702921536.069740	violation	protocol	NTP	CEkyxg3p1TOaTH5Sj4	-	10.0.0.101	123	10.0.0.10	123	Binpac exception: binpac exception: out_of_bound: Extension_Field:value_len: 18 > 6	-
+1702921536.071435	violation	protocol	NTP	CEkyxg3p1TOaTH5Sj4	-	10.0.0.101	123	10.0.0.10	123	Binpac exception: binpac exception: out_of_bound: Extension_Field:value: 1025013326 > 72	-
+#close	2024-07-08-06-27-46

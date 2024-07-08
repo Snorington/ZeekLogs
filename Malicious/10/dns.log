@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2024-07-08-06-28-14
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	rtt	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	interval	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1697047098.805401	Cm417UhdoAxSQsLf2	10.10.10.102	57505	10.10.10.1	53	udp	35435	0.010934	www.dropbox.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www-env.dropbox-dns.com,162.125.8.18	18.000000,18.000000	F
+1697047099.768866	CsADno4SGraEyPGQWh	10.10.10.102	60559	10.10.10.1	53	udp	10629	0.035618	ucdd5d6bc9869417d2bbd7f22955.dl.dropboxusercontent.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	edge-block-www-env.dropbox-dns.com,162.125.8.15	60.000000,60.000000	F
+1697047227.543754	CF9NNy4OrvFREQnlq8	10.10.10.102	52021	10.10.10.1	53	udp	4127	0.058032	teleportfilmona.online	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	104.21.11.40,172.67.165.34	300.000000,300.000000	F
+#close	2024-07-08-06-28-14

@@ -1,0 +1,22 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	kerberos
+#open	2024-07-08-06-27-45
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	request_type	client	service	success	error_msg	from	till	cipher	forwardable	renewable	client_cert_subject	client_cert_fuid	server_cert_subject	server_cert_fuid
+#types	time	string	addr	port	addr	port	string	string	string	bool	string	time	time	string	bool	bool	string	string	string	string
+1702921579.975384	ClHTQK2zCHlbtcmyD	10.0.0.101	55075	10.0.0.10	445	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+1702922479.962139	Cz9VAa1ljCbvSLLr4b	10.0.0.101	55083	10.0.0.10	445	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+1702923379.939917	COK99R1fgyRri9Zc3f	10.0.0.101	55094	10.0.0.10	445	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+1702924253.471099	CGscm5Q1QdkHCyvY1	10.0.0.101	55104	10.0.0.10	88	TGS	DESKTOP-JSTG3H4$/SNEAKYTREE.FARM	LDAP/WIN-BQHVFR3MVSA.sneakytree.farm/sneakytree.farm	T	-	-	2136422885.000000	aes256-cts-hmac-sha1-96	T	T	-	-	-	-
+1702924253.581456	CnxDur2QAA525MGLZa	10.0.0.101	55106	10.0.0.10	88	TGS	DESKTOP-JSTG3H4$/SNEAKYTREE.FARM	DESKTOP-JSTG3H4$	T	-	-	2136422885.000000	aes256-cts-hmac-sha1-96	T	T	-	-	-	-
+1702924254.016150	C6sCx34ebD3M4gO68h	10.0.0.101	55109	10.0.0.10	88	TGS	DESKTOP-JSTG3H4$/SNEAKYTREE.FARM	cifs/WIN-BQHVFR3MVSA.sneakytree.farm/sneakytree.farm	T	-	-	2136422885.000000	aes256-cts-hmac-sha1-96	T	T	-	-	-	-
+1702924254.020804	CDIYSN3m6HZhPJU10l	10.0.0.101	55110	10.0.0.10	88	TGS	DESKTOP-JSTG3H4$/SNEAKYTREE.FARM	krbtgt/SNEAKYTREE.FARM	T	-	-	2136422885.000000	aes256-cts-hmac-sha1-96	T	T	-	-	-	-
+1702924254.023686	Cb9YmP264fKTiSSCLc	10.0.0.101	55108	10.0.0.10	445	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+1702925179.892498	Cg7yGl2ofaCuOI50pi	10.0.0.101	55126	10.0.0.10	445	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+1702925956.277015	CVP98YjheVLWqmJc1	10.0.0.101	55163	10.0.0.10	445	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+1702925986.388857	CtzNMd3i60rUCSz908	10.0.0.101	55178	10.0.0.10	445	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+1702926047.944407	CIUoKEVIpPzn8u9qf	10.0.0.101	55214	10.0.0.10	88	TGS	cbellingsley/SNEAKYTREE.FARM	ldap/WIN-BQHVFR3MVSA.sneakytree.farm	T	-	-	2136422885.000000	aes256-cts-hmac-sha1-96	T	T	-	-	-	-
+1702926079.879798	CI5SoS2HTikrLyxAxb	10.0.0.101	55238	10.0.0.10	445	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+#close	2024-07-08-06-27-46

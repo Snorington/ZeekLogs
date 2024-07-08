@@ -1,0 +1,196 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	analyzer
+#open	2024-07-08-06-26-58
+#fields	ts	cause	analyzer_kind	analyzer_name	uid	fuid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	failure_reason	failure_data
+#types	time	string	string	string	string	string	addr	port	addr	port	string	string
+1717562764.140398	violation	protocol	HTTP	Cej4XR2OMNufxIwZ1	-	167.94.145.96	39050	203.161.44.208	80	not a http request line	-
+1717562764.140789	violation	protocol	HTTP	Cej4XR2OMNufxIwZ1	-	167.94.145.96	39050	203.161.44.208	80	not a http request line	-
+1717565815.411761	violation	protocol	HTTP	CnSrS13k2rz5slolOi	-	18.170.218.108	21521	203.161.44.208	80	not a http request line	-
+1717570029.218931	violation	protocol	RDPEUDP	C8mOU8vdVK4TXQvUi	-	65.49.1.42	60966	203.161.44.208	3389	Binpac exception: binpac exception: invalid case: /src/zeek/src/analyzer/protocol/rdp/rdpeudp-protocol.pac:34:has_synex_payload: 0 (true)	-
+1717571798.546679	violation	protocol	HTTP	CQMpuv1BEWin1HiJN6	-	165.232.44.51	59012	203.161.44.208	80	not a http request line	-
+1717571798.547349	violation	protocol	SSL	CQMpuv1BEWin1HiJN6	-	165.232.44.51	59012	203.161.44.208	80	Invalid version late in TLS connection. Packet reported version: 21588	-
+1717571895.998378	violation	protocol	SIP	CZsnv249j4PTUeXVWl	-	89.248.164.149	48394	203.161.44.208	5060	Binpac exception: binpac exception: string mismatch at /src/zeek/src/analyzer/protocol/sip/sip-protocol.pac:45: \x0aexpected pattern: "SIP/"\x0aactual data: "\x15VkHSe"	-
+1717573126.933806	violation	protocol	DNS	CqXKWZ1luTThgotZ34	-	193.42.11.34	33482	203.161.44.208	53	DNS_Conn_count_too_large	-
+1717573878.330623	violation	protocol	HTTP	Cp1gDk2QxXu8VBJuY2	-	45.55.70.16	42290	203.161.44.208	80	not a http request line	-
+1717573878.331229	violation	protocol	SSL	Cp1gDk2QxXu8VBJuY2	-	45.55.70.16	42290	203.161.44.208	80	Invalid version late in TLS connection. Packet reported version: 21588	-
+1717573878.494015	violation	protocol	HTTP	CkNW65YlB2ieaUuv8	-	45.55.70.16	42298	203.161.44.208	80	not a http request line	-
+1717573878.494697	violation	protocol	SSL	CkNW65YlB2ieaUuv8	-	45.55.70.16	42298	203.161.44.208	80	Invalid version late in TLS connection. Packet reported version: 21588	-
+1717573879.087239	violation	protocol	HTTP	CI1D1q2nF0oXWxEFJk	-	45.55.70.16	42322	203.161.44.208	80	not a http request line	-
+1717573879.087943	violation	protocol	SSL	CI1D1q2nF0oXWxEFJk	-	45.55.70.16	42322	203.161.44.208	80	Invalid version late in TLS connection. Packet reported version: 21588	-
+1717574699.720300	violation	protocol	KRB	Cv85Uo3L18lazOL8Oe	-	199.45.154.177	59319	203.161.44.208	88	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:len: 2 > 1	-
+1717576969.578636	violation	protocol	HTTP	Cp6IA82ubbvlGmBJMe	-	64.62.156.30	49771	203.161.44.208	80	not a http request line	-
+1717576969.579123	violation	protocol	SSL	Cp6IA82ubbvlGmBJMe	-	64.62.156.30	49771	203.161.44.208	80	Invalid version late in TLS connection. Packet reported version: 21588	-
+1717577687.513790	violation	protocol	HTTP	C1kt5U1ydzyYFJ59kb	-	167.94.138.125	37468	203.161.44.208	80	not a http request line	-
+1717577687.514269	violation	protocol	HTTP	C1kt5U1ydzyYFJ59kb	-	167.94.138.125	37468	203.161.44.208	80	not a http request line	-
+1717579521.935876	violation	protocol	HTTP	CvfJDX3em8HDmVWqLi	-	71.6.134.235	46612	203.161.44.208	80	not a http request line	-
+1717579521.936453	violation	protocol	SSL	CvfJDX3em8HDmVWqLi	-	71.6.134.235	46612	203.161.44.208	80	Invalid version late in TLS connection. Packet reported version: 21588	-
+1717580580.254638	violation	protocol	HTTP	C6Pt5415xHqpmXKDr5	-	198.235.24.40	60030	203.161.44.208	80	not a http request line	-
+1717580580.254997	violation	protocol	SSL	C6Pt5415xHqpmXKDr5	-	198.235.24.40	60030	203.161.44.208	80	Invalid version late in TLS connection. Packet reported version: 21588	-
+1717580580.576643	violation	protocol	HTTP	CMTJs037ERXJk4rGXk	-	198.235.24.40	60038	203.161.44.208	80	not a http request line	-
+1717580580.576969	violation	protocol	SSL	CMTJs037ERXJk4rGXk	-	198.235.24.40	60038	203.161.44.208	80	Invalid version late in TLS connection. Packet reported version: 21588	-
+1717580752.026869	violation	protocol	HTTP	CR2QPy4U7sRAoXLTwf	-	45.79.181.104	62404	203.161.44.208	80	not a http request line	-
+1717580752.027318	violation	protocol	SSL	CR2QPy4U7sRAoXLTwf	-	45.79.181.104	62404	203.161.44.208	80	Invalid version late in TLS connection. Packet reported version: 21588	-
+1717581785.213583	violation	protocol	QUIC	Ci0viCHeIF5j8YWXk	-	71.6.134.235	44290	203.161.44.208	443	unhandled QUIC version 0xfa1a1a1a (/src/zeek/src/analyzer/protocol/quic/QUIC.spicy:280:7-280:57)	\xc1\xfa\x1a\x1a\x1a\x08quicscan\x00\x00\x04\x9e\x00\x00\x00\x00\x00\x00\x7f\x7f\x7f\x7f\x7f\x7f\x7f\x7f\x7f\x7f\x7f\x7f\x7f\x7f\x7f\x7f
+1717584568.635964	violation	protocol	SIP	CQiurrl4dZfD3kYpk	-	51.159.15.22	53772	203.161.44.208	5060	Binpac exception: binpac exception: string mismatch at /src/zeek/src/analyzer/protocol/sip/sip-protocol.pac:45: \x0aexpected pattern: "SIP/"\x0aactual data: "\x16\x03\x0c\x04rl"4\x07KNA\x0b*t6\x13Xe8"	-
+1717590651.403423	violation	protocol	HTTP	CwWjFj4LqsKy4dk8ta	-	152.32.185.141	58922	203.161.44.208	80	not a http request line	-
+1717590651.405430	violation	protocol	SSL	CwWjFj4LqsKy4dk8ta	-	152.32.185.141	58922	203.161.44.208	80	Invalid version late in TLS connection. Packet reported version: 21588	-
+1717602331.213404	violation	protocol	HTTP	CEy3wF27z732mCWg9j	-	45.79.181.223	34470	203.161.44.208	80	not a http request line	-
+1717602331.214042	violation	protocol	SSL	CEy3wF27z732mCWg9j	-	45.79.181.223	34470	203.161.44.208	80	Invalid version late in TLS connection. Packet reported version: 21588	-
+1717607625.754258	violation	protocol	DNS	CzWE0w49RCJIkqrdcc	-	31.14.17.232	64118	203.161.44.208	5353	DNS_Conn_count_too_large	-
+1717609545.739388	violation	protocol	HTTP	CgRtaLeHSwZPk7Anj	-	172.104.11.46	17098	203.161.44.208	80	not a http request line	-
+1717609545.739806	violation	protocol	SSL	CgRtaLeHSwZPk7Anj	-	172.104.11.46	17098	203.161.44.208	80	Invalid version late in TLS connection. Packet reported version: 21588	-
+1717609806.709738	violation	protocol	SIP	CzGDXS2fKSGtLUDmU3	-	107.189.29.88	8082	203.161.44.208	5060	Binpac exception: binpac exception: string mismatch at /src/zeek/src/analyzer/protocol/sip/sip-protocol.pac:25: \x0aexpected pattern: "[[:alnum:]@[:punct:]]+"\x0aactual data: ""	-
+1717615169.848696	violation	protocol	HTTP	CIozfN19daHYr3dvwl	-	81.209.179.152	54446	203.161.44.208	80	not a http request line	-
+1717615169.848941	violation	protocol	SSL	CIozfN19daHYr3dvwl	-	81.209.179.152	54446	203.161.44.208	80	Invalid version late in TLS connection. Packet reported version: 21588	-
+1717616530.474775	violation	protocol	SIP	C3Uslv4CbkK6evMH4c	-	220.124.130.79	5353	203.161.44.208	5060	Binpac exception: binpac exception: string mismatch at /src/zeek/src/analyzer/protocol/sip/sip-protocol.pac:45: \x0aexpected pattern: "SIP/"\x0aactual data: "\x0ean'\x0f\x0e\x17Y-U"`d\x14~=:\x03\x1as=OzF,\x05\x09Cu21"	-
+1717616741.910873	violation	protocol	HTTP	CruCk32ZhDBx9xEwpe	-	172.104.11.46	5588	203.161.44.208	80	not a http request line	-
+1717616741.911226	violation	protocol	SSL	CruCk32ZhDBx9xEwpe	-	172.104.11.46	5588	203.161.44.208	80	Invalid version late in TLS connection. Packet reported version: 21588	-
+1717617757.777201	violation	protocol	HTTP	CBqN7T3Eps0cWI11X6	-	199.45.155.53	45114	203.161.44.208	80	not a http request line	-
+1717617757.777494	violation	protocol	HTTP	CBqN7T3Eps0cWI11X6	-	199.45.155.53	45114	203.161.44.208	80	not a http request line	-
+1717621884.560152	violation	protocol	SIP	C6wnU246UrEbowyqz3	-	137.184.104.69	1434	203.161.44.208	5060	Binpac exception: binpac exception: string mismatch at /src/zeek/src/analyzer/protocol/sip/sip-protocol.pac:25: \x0aexpected pattern: "[[:alnum:]@[:punct:]]+"\x0aactual data: "\x11saW8\x09+Q\x09FU \x12q[_E\x1fi~b+BOU%s(l`o}SQT\x0cZ\x7f]cE2\x03X#^7i~ g`K)/ N"I:\x0387V\x09\x0bbd"	-
+1717623712.376666	violation	protocol	SIP	CSG5ou4urflWDfGnCf	-	157.173.202.197	10772	203.161.44.208	5060	Binpac exception: binpac exception: string mismatch at /src/zeek/src/analyzer/protocol/sip/sip-protocol.pac:25: \x0aexpected pattern: "[[:alnum:]@[:punct:]]+"\x0aactual data: "\x07^k0\x18t#\x7fxQBS>t\x10G\x09lNd"	-
+1717623960.333239	violation	protocol	HTTP	CMX8GS3ZoRBoc06cl	-	172.104.11.51	2778	203.161.44.208	80	not a http request line	-
+1717623960.333802	violation	protocol	SSL	CMX8GS3ZoRBoc06cl	-	172.104.11.51	2778	203.161.44.208	80	Invalid version late in TLS connection. Packet reported version: 21588	-
+1717624502.466781	violation	protocol	SNMP	CLvi5D3i4W7JMYGb48	-	192.241.236.28	49702	203.161.44.208	161	Binpac exception: binpac exception: Got ASN.1 tag 77, expect 48	-
+1717627357.953669	violation	protocol	DNS	ChlZz52xvCmvapnRjc	-	51.159.99.44	50562	203.161.44.208	5353	DNS_Conn_count_too_large	-
+1717640889.617982	violation	protocol	HTTP	ClSADu1lAAtpCIseVl	-	147.185.132.195	57614	203.161.44.208	80	not a http request line	-
+1717640889.618534	violation	protocol	SSL	ClSADu1lAAtpCIseVl	-	147.185.132.195	57614	203.161.44.208	80	Invalid version late in TLS connection. Packet reported version: 21588	-
+1717640889.788039	violation	protocol	HTTP	C1AFM975gltM4F4Ei	-	147.185.132.195	57628	203.161.44.208	80	not a http request line	-
+1717640889.788344	violation	protocol	SSL	C1AFM975gltM4F4Ei	-	147.185.132.195	57628	203.161.44.208	80	Invalid version late in TLS connection. Packet reported version: 21588	-
+1717641049.290325	violation	protocol	RDPEUDP	Ckeu6O3OWFhkyYGhak	-	146.88.241.61	46530	203.161.44.208	3389	Binpac exception: binpac exception: invalid case: /src/zeek/src/analyzer/protocol/rdp/rdpeudp-protocol.pac:34:has_synex_payload: 0 (true)	-
+1717649919.738919	violation	protocol	RDPEUDP	CHrKEj41LvMad7VDOl	-	74.82.47.47	45250	203.161.44.208	3389	Binpac exception: binpac exception: invalid case: /src/zeek/src/analyzer/protocol/rdp/rdpeudp-protocol.pac:34:has_synex_payload: 0 (true)	-
+1717651895.598008	violation	protocol	HTTP	CcGsqX2saG4kxOqhlb	-	216.218.206.66	25460	203.161.44.208	80	not a http request line	-
+1717651895.598695	violation	protocol	SSL	CcGsqX2saG4kxOqhlb	-	216.218.206.66	25460	203.161.44.208	80	Invalid version late in TLS connection. Packet reported version: 21588	-
+1717652545.249731	violation	protocol	HTTP	CS3UQN1oPms9Btpvrb	-	107.170.235.27	35956	203.161.44.208	80	not a http request line	-
+1717653738.696681	violation	protocol	HTTP	CQQTtK3iE6jjS5E3ok	-	157.230.143.81	58848	203.161.44.208	80	not a http request line	-
+1717653738.697241	violation	protocol	SSL	CQQTtK3iE6jjS5E3ok	-	157.230.143.81	58848	203.161.44.208	80	Invalid version late in TLS connection. Packet reported version: 21588	-
+1717653738.734289	violation	protocol	HTTP	Cpswdn1XusjIrHWmGb	-	157.230.143.81	58856	203.161.44.208	80	not a http request line	-
+1717653738.735373	violation	protocol	SSL	Cpswdn1XusjIrHWmGb	-	157.230.143.81	58856	203.161.44.208	80	Invalid version late in TLS connection. Packet reported version: 21588	-
+1717653738.877323	violation	protocol	HTTP	Cw8E7V1l9TX6mcMP9a	-	157.230.143.81	58880	203.161.44.208	80	not a http request line	-
+1717653738.877736	violation	protocol	SSL	Cw8E7V1l9TX6mcMP9a	-	157.230.143.81	58880	203.161.44.208	80	Invalid version late in TLS connection. Packet reported version: 21588	-
+1717657832.273756	violation	packet	GTPV1	C0nZjc1zJasWKJ1Lk1	-	35.203.211.156	55707	203.161.44.208	2123	GTPv1 bad Version	-
+1717659922.906335	violation	protocol	HTTP	CrdgqGVRxH6sWGOj	-	172.104.11.34	16304	203.161.44.208	80	not a http request line	-
+1717659922.906784	violation	protocol	SSL	CrdgqGVRxH6sWGOj	-	172.104.11.34	16304	203.161.44.208	80	Invalid version late in TLS connection. Packet reported version: 21588	-
+1717661300.300843	violation	protocol	DNS	CfKtS912QZvkIq8iRe	-	158.69.62.72	26243	203.161.44.208	5353	DNS_Conn_count_too_large	-
+1717661986.657320	violation	protocol	HTTP	Cvnf2p4yOzWs1hZb5g	-	165.232.40.127	46140	203.161.44.208	80	not a http request line	-
+1717661986.657795	violation	protocol	SSL	Cvnf2p4yOzWs1hZb5g	-	165.232.40.127	46140	203.161.44.208	80	Invalid version late in TLS connection. Packet reported version: 21588	-
+1717662975.344077	violation	protocol	HTTP	Ci3lco4o3tw77EduP5	-	206.189.25.84	65056	203.161.44.208	80	not a http request line	-
+1717665527.213683	violation	protocol	HTTP	CI8LisFK3DHYUQC56	-	80.66.76.134	65312	203.161.44.208	80	not a http request line	-
+1717667120.340096	violation	protocol	HTTP	C5EVMn3DwSBP3Zb8ch	-	45.33.80.243	4288	203.161.44.208	80	not a http request line	-
+1717667120.340371	violation	protocol	SSL	C5EVMn3DwSBP3Zb8ch	-	45.33.80.243	4288	203.161.44.208	80	Invalid version late in TLS connection. Packet reported version: 21588	-
+1717668833.223644	violation	protocol	DNS	CuxDUg21Mf5xJ2svj2	-	203.161.44.208	1027	47.236.246.16	5353	DNS_Conn_count_too_large	-
+1717669959.810146	violation	protocol	RDPEUDP	C4md9033TqBmHNOpRe	-	208.73.203.154	49021	203.161.44.208	3389	Binpac exception: binpac exception: invalid case: /src/zeek/src/analyzer/protocol/rdp/rdpeudp-protocol.pac:34:has_synex_payload: 0 (true)	-
+1717671352.361419	violation	protocol	QUIC	CIkYf24XHZVqBMOdh	-	138.246.253.15	55918	203.161.44.208	443	unhandled QUIC version 0x1a1a1a1a (/src/zeek/src/analyzer/protocol/quic/QUIC.spicy:280:7-280:57)	\xc0\x1a\x1a\x1a\x1a\x08SCANNING\x0a\x124Vx\x90\x124Vx\x90\x00D\xc8\x89\xc46\xcbf\x01\xe7\xa6C\x91\x9a\xb0
+1717674342.417039	violation	protocol	HTTP	C0EeQv2Y2mVYtAChVd	-	45.79.128.205	41856	203.161.44.208	80	not a http request line	-
+1717674342.419774	violation	protocol	SSL	C0EeQv2Y2mVYtAChVd	-	45.79.128.205	41856	203.161.44.208	80	Invalid version late in TLS connection. Packet reported version: 21588	-
+1717675310.807583	violation	protocol	DNS	CeglM33CEQjpFFFG5g	-	198.199.111.115	59832	203.161.44.208	53	DNS_Conn_count_too_large	-
+1717679143.780515	violation	packet	GTPV1	CbEwmb20FFZn9Hpsbd	-	71.6.134.235	52902	203.161.44.208	2152	GTPv1 bad Version	-
+1717681209.271746	violation	packet	GTPV1	CJxoCG2bCXqyN13vJ6	-	71.6.134.235	54910	203.161.44.208	2152	GTPv1 bad Version	-
+1717681561.583410	violation	protocol	HTTP	C4ZRzTAt3m7N29vrh	-	45.79.181.223	55256	203.161.44.208	80	not a http request line	-
+1717681561.583967	violation	protocol	SSL	C4ZRzTAt3m7N29vrh	-	45.79.181.223	55256	203.161.44.208	80	Invalid version late in TLS connection. Packet reported version: 21588	-
+1717682468.492783	violation	protocol	SIP	CQu4c8h2t7U44rYIl	-	191.96.100.234	18813	203.161.44.208	5060	Binpac exception: binpac exception: string mismatch at /src/zeek/src/analyzer/protocol/sip/sip-protocol.pac:25: \x0aexpected pattern: "[[:alnum:]@[:punct:]]+"\x0aactual data: "\x07whM>=\x01\x17\x0e"	-
+1717682795.564622	violation	protocol	HTTP	ChPhSxq4GKx7XISN6	-	152.32.234.184	42524	203.161.44.208	80	not a http request line	-
+1717682795.565175	violation	protocol	SSL	ChPhSxq4GKx7XISN6	-	152.32.234.184	42524	203.161.44.208	80	Invalid version late in TLS connection. Packet reported version: 21588	-
+1717682795.642583	violation	protocol	HTTP	ChxVdU1jz7AQdvjhk2	-	152.32.234.184	42594	203.161.44.208	80	not a http request line	-
+1717684928.463628	violation	protocol	DNS	CHuiom47VAqs3HpCa5	-	51.178.25.97	52211	203.161.44.208	5353	DNS_Conn_count_too_large	-
+1717685892.279254	violation	protocol	DNS	CuITcP3QD7elGM3da9	-	54.36.181.66	11211	203.161.44.208	5353	DNS_Conn_count_too_large	-
+1717688756.261488	violation	protocol	HTTP	C5tHP6vqavkMLdq6d	-	45.33.80.243	9494	203.161.44.208	80	not a http request line	-
+1717688756.261895	violation	protocol	SSL	C5tHP6vqavkMLdq6d	-	45.33.80.243	9494	203.161.44.208	80	Invalid version late in TLS connection. Packet reported version: 21588	-
+1717689699.172088	violation	protocol	HTTP	ClohtS2UCAfufXbtD7	-	223.113.128.152	47666	203.161.44.208	80	not a http request line	-
+1717689699.172405	violation	protocol	SSL	ClohtS2UCAfufXbtD7	-	223.113.128.152	47666	203.161.44.208	80	Invalid version late in TLS connection. Packet reported version: 21588	-
+1717689699.822891	violation	protocol	HTTP	C7LOCWBE0lY2bv6Og	-	223.113.128.152	51158	203.161.44.208	80	not a http request line	-
+1717689699.823944	violation	protocol	SSL	C7LOCWBE0lY2bv6Og	-	223.113.128.152	51158	203.161.44.208	80	Invalid version late in TLS connection. Packet reported version: 21588	-
+1717689700.572263	violation	protocol	HTTP	CRZd3x2vmnOZKRVXfl	-	223.113.128.152	53494	203.161.44.208	80	not a http request line	-
+1717689962.887591	violation	protocol	HTTP	Ccw5e51zRYSYrNySnc	-	199.45.155.46	48978	203.161.44.208	80	not a http request line	-
+1717689962.888127	violation	protocol	HTTP	Ccw5e51zRYSYrNySnc	-	199.45.155.46	48978	203.161.44.208	80	not a http request line	-
+1717695931.667624	violation	protocol	HTTP	CwE85T3H8XmjtlWICa	-	45.79.181.179	51544	203.161.44.208	80	not a http request line	-
+1717695931.668254	violation	protocol	SSL	CwE85T3H8XmjtlWICa	-	45.79.181.179	51544	203.161.44.208	80	Invalid version late in TLS connection. Packet reported version: 21588	-
+1717698781.829746	violation	protocol	KRB	C64t0n3OdkEXep2ecj	-	128.1.43.38	37632	203.161.44.208	88	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 128 > 40	-
+1717699700.392905	violation	protocol	KRB	C2QPD5OxaNh1oRQvf	-	43.129.57.32	50179	203.161.44.208	88	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 128 > 40	-
+1717703152.785437	violation	protocol	HTTP	CdaHDdEBjByf4DOH6	-	192.155.90.220	42416	203.161.44.208	80	not a http request line	-
+1717703152.785902	violation	protocol	SSL	CdaHDdEBjByf4DOH6	-	192.155.90.220	42416	203.161.44.208	80	Invalid version late in TLS connection. Packet reported version: 21588	-
+1717706257.672017	violation	protocol	DNS	CwVBbA2XWFLu1jHuuc	-	203.161.44.208	1900	47.236.128.160	5353	DNS_Conn_count_too_large	-
+1717710327.330716	violation	protocol	HTTP	CqIfsj1SMIum7FMuNi	-	172.105.128.13	9276	203.161.44.208	80	not a http request line	-
+1717710327.331282	violation	protocol	SSL	CqIfsj1SMIum7FMuNi	-	172.105.128.13	9276	203.161.44.208	80	Invalid version late in TLS connection. Packet reported version: 21588	-
+1717710538.110566	violation	protocol	HTTP	CUn7534oU49hjPUOm1	-	167.94.138.60	45382	203.161.44.208	80	not a http request line	-
+1717710538.111889	violation	protocol	HTTP	CUn7534oU49hjPUOm1	-	167.94.138.60	45382	203.161.44.208	80	not a http request line	-
+1717714040.177884	violation	protocol	DNS	Ck7tJW2eCBlOKEvLCi	-	203.161.44.208	4000	41.249.251.2	5353	DNS_Conn_count_too_large	-
+1717718165.116983	violation	protocol	HTTP	CIGX1f2pJ4DTyJ35g	-	139.144.52.241	49624	203.161.44.208	80	not a http request line	-
+1717718165.117339	violation	protocol	SSL	CIGX1f2pJ4DTyJ35g	-	139.144.52.241	49624	203.161.44.208	80	Invalid version late in TLS connection. Packet reported version: 21588	-
+1717718173.713020	violation	protocol	HTTP	CtjvOw3Fo46NYAJEY8	-	139.144.52.241	50108	203.161.44.208	80	not a http request line	-
+1717722949.508171	violation	protocol	SIP	C5bNQl1z1dNIEy0Y8k	-	203.161.44.208	8081	38.7.199.121	5060	Binpac exception: binpac exception: string mismatch at /src/zeek/src/analyzer/protocol/sip/sip-protocol.pac:45: \x0aexpected pattern: "SIP/"\x0aactual data: "\x13?=\x05|l\x066.\x1f9\x04:oV'\x05e\x05-_)S?"	-
+1717723574.998708	violation	protocol	SIP	CP4wYf4KOfktMy2UVh	-	117.158.62.67	21505	203.161.44.208	5060	Binpac exception: binpac exception: string mismatch at /src/zeek/src/analyzer/protocol/sip/sip-protocol.pac:45: \x0aexpected pattern: "SIP/"\x0aactual data: "\x07\x10'U#"	-
+1717724627.375726	violation	protocol	DNS	Cg7tdp5DC8W420PUe	-	203.161.44.208	1434	5.199.166.96	5353	DNS_Conn_count_too_large	-
+1717724760.679950	violation	protocol	HTTP	CIKLGq1NGUXI0Il179	-	172.104.11.4	16594	203.161.44.208	80	not a http request line	-
+1717724760.680496	violation	protocol	SSL	CIKLGq1NGUXI0Il179	-	172.104.11.4	16594	203.161.44.208	80	Invalid version late in TLS connection. Packet reported version: 21588	-
+1717731498.876540	violation	protocol	HTTP	CV9nYQ29IHotUm71Xa	-	78.153.140.179	53832	203.161.44.208	80	not a http request line	-
+1717731498.876933	violation	protocol	SSL	CV9nYQ29IHotUm71Xa	-	78.153.140.179	53832	203.161.44.208	80	Invalid version late in TLS connection. Packet reported version: 21588	-
+1717731608.994842	violation	protocol	HTTP	C8aHMh4PX9a1UGPLk	-	78.153.140.177	52108	203.161.44.208	80	not a http request line	-
+1717731608.997072	violation	protocol	SSL	C8aHMh4PX9a1UGPLk	-	78.153.140.177	52108	203.161.44.208	80	Invalid version late in TLS connection. Packet reported version: 21588	-
+1717731736.619279	violation	protocol	RDPEUDP	CSTKzl3tPR8aeYQagi	-	216.218.206.124	18818	203.161.44.208	3389	Binpac exception: binpac exception: invalid case: /src/zeek/src/analyzer/protocol/rdp/rdpeudp-protocol.pac:34:has_synex_payload: 0 (true)	-
+1717737372.331857	violation	protocol	DNS	CXc86tVPECdNOY9Tb	-	37.187.92.109	53517	203.161.44.208	5353	DNS_Conn_count_too_large	-
+1717737575.832881	violation	protocol	DNS	CjyYzn3Mi227QurWej	-	203.161.44.208	1900	51.159.107.190	5353	DNS_Conn_count_too_large	-
+1717740681.209900	violation	protocol	DNS	C6mzMs23FTPpRfLQ77	-	139.99.84.231	8035	203.161.44.208	5353	DNS_Conn_count_too_large	-
+1717743333.387055	violation	protocol	HTTP	CqRislUciyWmQx018	-	205.210.31.95	64714	203.161.44.208	80	not a http request line	-
+1717743333.387469	violation	protocol	SSL	CqRislUciyWmQx018	-	205.210.31.95	64714	203.161.44.208	80	Invalid version late in TLS connection. Packet reported version: 21588	-
+1717743333.518177	violation	protocol	HTTP	CUye1h4ozqZc8sXoc6	-	205.210.31.95	64720	203.161.44.208	80	not a http request line	-
+1717743333.518698	violation	protocol	SSL	CUye1h4ozqZc8sXoc6	-	205.210.31.95	64720	203.161.44.208	80	Invalid version late in TLS connection. Packet reported version: 21588	-
+1717745230.629312	violation	protocol	KRB	CFHVJK20osSxZTxsX6	-	162.142.125.90	1416	203.161.44.208	88	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:len: 2 > 1	-
+1717747859.523675	violation	protocol	SNMP	CzIWrf3UqfWebepUq6	-	104.131.144.41	52575	203.161.44.208	161	Binpac exception: binpac exception: Got ASN.1 tag 77, expect 48	-
+1717748275.190572	violation	protocol	SIP	CafFNQ1IoSJMkvfGG2	-	203.161.44.208	1900	107.172.234.164	5060	Binpac exception: binpac exception: string mismatch at /src/zeek/src/analyzer/protocol/sip/sip-protocol.pac:45: \x0aexpected pattern: "SIP/"\x0aactual data: "\x1bruef/hPEY\x1f{7\x1b\x19^q:wl\x7f_:z\x18!\x1bc"	-
+1717750504.577796	violation	protocol	DNS	CmcfF116fQeQa6Y1Th	-	203.161.44.208	30301	104.195.12.43	5353	DNS_Conn_count_too_large	-
+1717750911.733015	violation	protocol	HTTP	CtLwFd2wGV8hHMS4o5	-	65.49.1.48	42823	203.161.44.208	80	not a http request line	-
+1717750911.733592	violation	protocol	SSL	CtLwFd2wGV8hHMS4o5	-	65.49.1.48	42823	203.161.44.208	80	Invalid version late in TLS connection. Packet reported version: 21588	-
+1717751702.412883	violation	protocol	DNS	C1RLJI2c46DTErLRnc	-	203.161.44.208	1027	8.219.206.189	5353	DNS_Conn_count_too_large	-
+1717752981.068891	violation	protocol	DNS	CQGmXE1EahkouJutJ3	-	178.33.41.129	8081	203.161.44.208	5353	DNS_Conn_count_too_large	-
+1717753573.853096	violation	protocol	HTTP	C9wtN42QZPhKq0XESf	-	45.79.172.21	43138	203.161.44.208	80	not a http request line	-
+1717753573.853508	violation	protocol	SSL	C9wtN42QZPhKq0XESf	-	45.79.172.21	43138	203.161.44.208	80	Invalid version late in TLS connection. Packet reported version: 21588	-
+1717755379.924455	violation	protocol	DNS	CBBnz9x3sG9fuYCIb	-	203.161.44.208	8082	51.159.107.190	5353	DNS_Conn_count_too_large	-
+1717755545.672677	violation	protocol	HTTP	ClLy6W1qm51lh4DAKc	-	178.79.133.115	56865	203.161.44.208	80	not a http request line	-
+1717755545.673010	violation	protocol	SSL	ClLy6W1qm51lh4DAKc	-	178.79.133.115	56865	203.161.44.208	80	Invalid version late in TLS connection. Packet reported version: 21588	-
+1717755545.983926	violation	protocol	HTTP	CC6zbb3J3LppUMpcR	-	178.79.133.115	57962	203.161.44.208	80	not a http request line	-
+1717755545.984407	violation	protocol	SSL	CC6zbb3J3LppUMpcR	-	178.79.133.115	57962	203.161.44.208	80	Invalid version late in TLS connection. Packet reported version: 21588	-
+1717755546.280655	violation	protocol	HTTP	CoS8zh4g73r1haOMgd	-	178.79.133.115	19872	203.161.44.208	80	not a http request line	-
+1717755546.283907	violation	protocol	SSL	CoS8zh4g73r1haOMgd	-	178.79.133.115	19872	203.161.44.208	80	Invalid version late in TLS connection. Packet reported version: 21588	-
+1717756895.925286	violation	protocol	KRB	CpDf0e44glfBhgKOV2	-	115.231.78.9	6139	203.161.44.208	88	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:len: 2 > 0	-
+1717756967.473328	violation	protocol	DNS	CATTcI3OGEctHPUYih	-	104.195.12.35	50992	203.161.44.208	5353	DNS_Conn_count_too_large	-
+1717757029.538142	violation	protocol	SIP	CS6rOIDlV05ec2LSg	-	203.161.44.208	8083	5.199.166.106	5060	Binpac exception: binpac exception: string mismatch at /src/zeek/src/analyzer/protocol/sip/sip-protocol.pac:25: \x0aexpected pattern: "[[:alnum:]@[:punct:]]+"\x0aactual data: "\x1c1q-}\x04\x156.\x09V7-iM<\x11l-7^Z!zNF2/bj\x10\x7f\x1b\x01,\x19\x06AO4K&kx\x0f94 %bW\x04<x~"	-
+1717758050.855676	violation	protocol	SIP	CLeyIx46rbAqGGhfEc	-	203.161.44.208	8082	5.199.166.106	5060	Binpac exception: binpac exception: string mismatch at /src/zeek/src/analyzer/protocol/sip/sip-protocol.pac:25: \x0aexpected pattern: "[[:alnum:]@[:punct:]]+"\x0aactual data: "\x075#*w\x19\x0b\x1f\x08\x08.\x17"Bu4=a\x0c[]2t9F\\#Tz"	-
+1717760367.693204	violation	protocol	HTTP	CN3g1t4uyFXosn4Ql1	-	66.240.205.34	50422	203.161.44.208	80	not a http request line	-
+1717760719.915050	violation	protocol	HTTP	CNFSTi3KWorEreo2xd	-	45.33.80.243	26178	203.161.44.208	80	not a http request line	-
+1717760719.915524	violation	protocol	SSL	CNFSTi3KWorEreo2xd	-	45.33.80.243	26178	203.161.44.208	80	Invalid version late in TLS connection. Packet reported version: 21588	-
+1717760993.772569	violation	protocol	HTTP	CPsJtq4QMgxvn4qDSd	-	185.216.71.4	45010	203.161.44.208	80	not a http request line	-
+1717760993.772815	violation	protocol	SSL	CPsJtq4QMgxvn4qDSd	-	185.216.71.4	45010	203.161.44.208	80	Invalid version late in TLS connection. Packet reported version: 21588	-
+1717762268.899320	violation	protocol	DNS	CMgOJj25mJe3ZahIbg	-	104.195.12.42	8082	203.161.44.208	5353	DNS_Conn_count_too_large	-
+1717766036.900657	violation	protocol	DNS	C0GjEy2OV0bqIoxNyf	-	202.150.153.76	17119	203.161.44.208	5353	DNS_Conn_count_too_large	-
+1717767864.324592	violation	protocol	HTTP	C0hxO81lVxTOSVgUre	-	80.82.77.202	59234	203.161.44.208	80	not a http request line	-
+1717767864.325117	violation	protocol	SSL	C0hxO81lVxTOSVgUre	-	80.82.77.202	59234	203.161.44.208	80	Invalid version late in TLS connection. Packet reported version: 21588	-
+1717767864.940474	violation	protocol	HTTP	CvdSSC3I3lsSbhFtee	-	80.82.77.202	16783	203.161.44.208	80	not a http request line	-
+1717767864.940899	violation	protocol	SSL	CvdSSC3I3lsSbhFtee	-	80.82.77.202	16783	203.161.44.208	80	Invalid version late in TLS connection. Packet reported version: 21588	-
+1717768295.994679	violation	protocol	SIP	C1S6D41OYj3nxAnZ1e	-	203.161.44.208	1434	107.172.234.164	5060	Binpac exception: binpac exception: string mismatch at /src/zeek/src/analyzer/protocol/sip/sip-protocol.pac:45: \x0aexpected pattern: "SIP/"\x0aactual data: "\x05\x11w\x01$Y\x10(L+6+s\x05"	-
+1717782318.517166	violation	protocol	HTTP	COn7lW3Ifno7vjlqV1	-	45.79.172.21	8526	203.161.44.208	80	not a http request line	-
+1717782318.517439	violation	protocol	SSL	COn7lW3Ifno7vjlqV1	-	45.79.172.21	8526	203.161.44.208	80	Invalid version late in TLS connection. Packet reported version: 21588	-
+1717782498.052202	violation	protocol	HTTP	CjGnKL3vmR9jm0CXlk	-	199.45.154.78	51736	203.161.44.208	80	not a http request line	-
+1717782498.052495	violation	protocol	HTTP	CjGnKL3vmR9jm0CXlk	-	199.45.154.78	51736	203.161.44.208	80	not a http request line	-
+1717787058.939952	violation	protocol	DNS	CYRjWO2VEPnbnwyNC7	-	159.89.32.234	33438	203.161.44.208	5353	DNS_Conn_count_too_large	-
+1717789546.359644	violation	protocol	HTTP	C10zEX2vQsleZ3r895	-	45.79.181.223	40570	203.161.44.208	80	not a http request line	-
+1717789546.360015	violation	protocol	SSL	C10zEX2vQsleZ3r895	-	45.79.181.223	40570	203.161.44.208	80	Invalid version late in TLS connection. Packet reported version: 21588	-
+1717790078.150009	violation	protocol	HTTP	CvTei11n4MpcMdWcob	-	107.170.227.26	47864	203.161.44.208	80	not a http request line	-
+1717795227.530560	violation	protocol	HTTP	CQYj0s4Xho7yyksEAc	-	146.190.212.236	42896	203.161.44.208	80	not a http request line	-
+1717795227.530837	violation	protocol	SSL	CQYj0s4Xho7yyksEAc	-	146.190.212.236	42896	203.161.44.208	80	Invalid version late in TLS connection. Packet reported version: 21588	-
+1717795227.682767	violation	protocol	HTTP	CArpV437lmLj7IREIc	-	146.190.212.236	42910	203.161.44.208	80	not a http request line	-
+1717795227.683032	violation	protocol	SSL	CArpV437lmLj7IREIc	-	146.190.212.236	42910	203.161.44.208	80	Invalid version late in TLS connection. Packet reported version: 21588	-
+1717795228.292837	violation	protocol	HTTP	CjQj442pcjPHMO5Y6b	-	146.190.212.236	42946	203.161.44.208	80	not a http request line	-
+1717795228.294804	violation	protocol	SSL	CjQj442pcjPHMO5Y6b	-	146.190.212.236	42946	203.161.44.208	80	Invalid version late in TLS connection. Packet reported version: 21588	-
+1717796216.324520	violation	protocol	SIP	CKUHDMIQz6uZw1SF2	-	186.233.119.15	48943	203.161.44.208	5060	Binpac exception: binpac exception: string mismatch at /src/zeek/src/analyzer/protocol/sip/sip-protocol.pac:23: \x0aexpected pattern: "[a-zA-Z0-9_.!%*+`'~-]+"\x0aactual data: ""	-
+1717797098.797872	violation	protocol	DNS	CsOJQz1RSP0WeZ5rci	-	198.199.102.31	56149	203.161.44.208	53	DNS_Conn_count_too_large	-
+1717801398.399811	violation	protocol	HTTP	CRTl8M3kJo1Ed9iJsd	-	162.142.125.39	44086	203.161.44.208	80	not a http request line	-
+1717801398.400309	violation	protocol	HTTP	CRTl8M3kJo1Ed9iJsd	-	162.142.125.39	44086	203.161.44.208	80	not a http request line	-
+1717802954.613735	violation	protocol	DNS	C5rNjeG74A5ukkK9k	-	107.175.214.211	13965	203.161.44.208	5353	DNS_Conn_count_too_large	-
+1717803969.814828	violation	protocol	HTTP	Cbl80EOgCxbNQVa3d	-	172.105.128.12	16750	203.161.44.208	80	not a http request line	-
+1717803969.816637	violation	protocol	SSL	Cbl80EOgCxbNQVa3d	-	172.105.128.12	16750	203.161.44.208	80	Invalid version late in TLS connection. Packet reported version: 21588	-
+1717808575.434021	violation	protocol	SIP	C08oy51gXcQ2Lp7ml9	-	185.88.152.106	64840	203.161.44.208	5060	Binpac exception: binpac exception: string mismatch at /src/zeek/src/analyzer/protocol/sip/sip-protocol.pac:25: \x0aexpected pattern: "[[:alnum:]@[:punct:]]+"\x0aactual data: "\x1a\x1bY,G.\x03e2\x08\x17`Tjo\x09\x03\x028V}\x14\x14O;~\x12<\x7fY"\x19t{E;*I!\\Q8=%",.&.f|+{\x10{6\x0e"	-
+#close	2024-07-08-06-27-13

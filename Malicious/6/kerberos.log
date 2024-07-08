@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	kerberos
+#open	2024-07-08-06-27-00
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	request_type	client	service	success	error_msg	from	till	cipher	forwardable	renewable	client_cert_subject	client_cert_fuid	server_cert_subject	server_cert_fuid
+#types	time	string	addr	port	addr	port	string	string	string	bool	string	time	time	string	bool	bool	string	string	string	string
+1717584825.608524	Cnhc934GtVSCp01Za1	198.235.24.186	56461	203.161.44.208	88	AS	Xpanse/REALM.com	krbtgt/REALM.com	-	-	-	1700700175.000000	-	T	F	-	-	-	-
+1717633800.204722	CFeTca4c0FYuPyfkRc	205.210.31.65	50621	203.161.44.208	88	AS	Xpanse/REALM.com	krbtgt/REALM.com	-	-	-	1700700175.000000	-	T	F	-	-	-	-
+1717698781.829748	C64t0n3OdkEXep2ecj	128.1.43.38	37632	203.161.44.208	88	AS	/NM	krbtgt/NM	-	-	-	0.000000	-	T	T	-	-	-	-
+1717699702.706133	Cm3Pue3SDU1SZI9kR8	43.129.57.32	58100	203.161.44.208	88	AS	/NM	krbtgt/NM	-	-	-	0.000000	-	T	T	-	-	-	-
+1717718906.943611	CS9gFS3kYrSCpIDpS9	205.210.31.66	50059	203.161.44.208	88	AS	Xpanse/REALM.com	krbtgt/REALM.com	-	-	-	1700700175.000000	-	T	F	-	-	-	-
+#close	2024-07-08-06-27-13

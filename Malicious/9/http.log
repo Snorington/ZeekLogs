@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2024-07-08-06-28-01
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	version	user_agent	origin	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	tags	username	password	proxied	orig_fuids	orig_filenames	orig_mime_types	resp_fuids	resp_filenames	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	string	string	count	count	count	string	count	string	set[enum]	string	string	set[string]	vector[string]	vector[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1702656118.062241	CBfuWs1D5MG1VwpIB3	10.12.15.101	51074	68.66.226.89	80	1	GET	jinjadiocese.com	/wgm3/?60937581	-	1.1	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0	-	0	204	200	OK	-	-	(empty)	-	-	-	-	-	-	FnKhk43OUzvIIdiGTe	-	text/plain
+1702656118.519477	CBfuWs1D5MG1VwpIB3	10.12.15.101	51074	68.66.226.89	80	2	GET	jinjadiocese.com	/favicon.ico	http://jinjadiocese.com/wgm3/?60937581	1.1	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0	-	0	0	200	OK	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1702656122.697268	CtV0214CFzLcHrr7Ac	10.12.15.101	51076	68.66.226.89	80	1	GET	jinjadiocese.com	/wgm3//?zKGIWQwzp=1702656118	http://jinjadiocese.com/wgm3/?60937581	1.1	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0	-	0	117213	200	OK	-	-	(empty)	-	-	-	-	-	-	F8G3qrVI6ervh5SW2	GURVU.zip	application/zip
+#close	2024-07-08-06-28-01

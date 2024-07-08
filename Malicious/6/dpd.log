@@ -1,0 +1,77 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dpd
+#open	2024-07-08-06-26-58
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	analyzer	failure_reason
+#types	time	string	addr	port	addr	port	enum	string	string
+1717562764.140398	Cej4XR2OMNufxIwZ1	167.94.145.96	39050	203.161.44.208	80	tcp	HTTP	not a http request line
+1717562764.140789	Cej4XR2OMNufxIwZ1	167.94.145.96	39050	203.161.44.208	80	tcp	HTTP	not a http request line
+1717571798.547349	CQMpuv1BEWin1HiJN6	165.232.44.51	59012	203.161.44.208	80	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 21588
+1717573878.331229	Cp1gDk2QxXu8VBJuY2	45.55.70.16	42290	203.161.44.208	80	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 21588
+1717573878.494697	CkNW65YlB2ieaUuv8	45.55.70.16	42298	203.161.44.208	80	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 21588
+1717573879.087943	CI1D1q2nF0oXWxEFJk	45.55.70.16	42322	203.161.44.208	80	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 21588
+1717576969.579123	Cp6IA82ubbvlGmBJMe	64.62.156.30	49771	203.161.44.208	80	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 21588
+1717577687.513790	C1kt5U1ydzyYFJ59kb	167.94.138.125	37468	203.161.44.208	80	tcp	HTTP	not a http request line
+1717577687.514269	C1kt5U1ydzyYFJ59kb	167.94.138.125	37468	203.161.44.208	80	tcp	HTTP	not a http request line
+1717579521.936453	CvfJDX3em8HDmVWqLi	71.6.134.235	46612	203.161.44.208	80	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 21588
+1717580580.254997	C6Pt5415xHqpmXKDr5	198.235.24.40	60030	203.161.44.208	80	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 21588
+1717580580.576969	CMTJs037ERXJk4rGXk	198.235.24.40	60038	203.161.44.208	80	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 21588
+1717580752.027318	CR2QPy4U7sRAoXLTwf	45.79.181.104	62404	203.161.44.208	80	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 21588
+1717590651.405430	CwWjFj4LqsKy4dk8ta	152.32.185.141	58922	203.161.44.208	80	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 21588
+1717602331.214042	CEy3wF27z732mCWg9j	45.79.181.223	34470	203.161.44.208	80	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 21588
+1717609545.739806	CgRtaLeHSwZPk7Anj	172.104.11.46	17098	203.161.44.208	80	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 21588
+1717615169.848941	CIozfN19daHYr3dvwl	81.209.179.152	54446	203.161.44.208	80	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 21588
+1717616741.911226	CruCk32ZhDBx9xEwpe	172.104.11.46	5588	203.161.44.208	80	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 21588
+1717617757.777201	CBqN7T3Eps0cWI11X6	199.45.155.53	45114	203.161.44.208	80	tcp	HTTP	not a http request line
+1717617757.777494	CBqN7T3Eps0cWI11X6	199.45.155.53	45114	203.161.44.208	80	tcp	HTTP	not a http request line
+1717623960.333802	CMX8GS3ZoRBoc06cl	172.104.11.51	2778	203.161.44.208	80	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 21588
+1717640889.618534	ClSADu1lAAtpCIseVl	147.185.132.195	57614	203.161.44.208	80	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 21588
+1717640889.788344	C1AFM975gltM4F4Ei	147.185.132.195	57628	203.161.44.208	80	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 21588
+1717651895.598695	CcGsqX2saG4kxOqhlb	216.218.206.66	25460	203.161.44.208	80	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 21588
+1717653738.697241	CQQTtK3iE6jjS5E3ok	157.230.143.81	58848	203.161.44.208	80	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 21588
+1717653738.735373	Cpswdn1XusjIrHWmGb	157.230.143.81	58856	203.161.44.208	80	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 21588
+1717653738.877736	Cw8E7V1l9TX6mcMP9a	157.230.143.81	58880	203.161.44.208	80	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 21588
+1717659922.906784	CrdgqGVRxH6sWGOj	172.104.11.34	16304	203.161.44.208	80	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 21588
+1717661986.657795	Cvnf2p4yOzWs1hZb5g	165.232.40.127	46140	203.161.44.208	80	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 21588
+1717667120.340371	C5EVMn3DwSBP3Zb8ch	45.33.80.243	4288	203.161.44.208	80	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 21588
+1717674342.419774	C0EeQv2Y2mVYtAChVd	45.79.128.205	41856	203.161.44.208	80	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 21588
+1717681561.583967	C4ZRzTAt3m7N29vrh	45.79.181.223	55256	203.161.44.208	80	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 21588
+1717682795.565175	ChPhSxq4GKx7XISN6	152.32.234.184	42524	203.161.44.208	80	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 21588
+1717688756.261895	C5tHP6vqavkMLdq6d	45.33.80.243	9494	203.161.44.208	80	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 21588
+1717689699.172405	ClohtS2UCAfufXbtD7	223.113.128.152	47666	203.161.44.208	80	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 21588
+1717689699.823944	C7LOCWBE0lY2bv6Og	223.113.128.152	51158	203.161.44.208	80	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 21588
+1717689962.887591	Ccw5e51zRYSYrNySnc	199.45.155.46	48978	203.161.44.208	80	tcp	HTTP	not a http request line
+1717689962.888127	Ccw5e51zRYSYrNySnc	199.45.155.46	48978	203.161.44.208	80	tcp	HTTP	not a http request line
+1717695931.668254	CwE85T3H8XmjtlWICa	45.79.181.179	51544	203.161.44.208	80	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 21588
+1717703152.785902	CdaHDdEBjByf4DOH6	192.155.90.220	42416	203.161.44.208	80	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 21588
+1717710327.331282	CqIfsj1SMIum7FMuNi	172.105.128.13	9276	203.161.44.208	80	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 21588
+1717710538.110566	CUn7534oU49hjPUOm1	167.94.138.60	45382	203.161.44.208	80	tcp	HTTP	not a http request line
+1717710538.111889	CUn7534oU49hjPUOm1	167.94.138.60	45382	203.161.44.208	80	tcp	HTTP	not a http request line
+1717718165.117339	CIGX1f2pJ4DTyJ35g	139.144.52.241	49624	203.161.44.208	80	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 21588
+1717724760.680496	CIKLGq1NGUXI0Il179	172.104.11.4	16594	203.161.44.208	80	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 21588
+1717731498.876933	CV9nYQ29IHotUm71Xa	78.153.140.179	53832	203.161.44.208	80	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 21588
+1717731608.997072	C8aHMh4PX9a1UGPLk	78.153.140.177	52108	203.161.44.208	80	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 21588
+1717743333.387469	CqRislUciyWmQx018	205.210.31.95	64714	203.161.44.208	80	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 21588
+1717743333.518698	CUye1h4ozqZc8sXoc6	205.210.31.95	64720	203.161.44.208	80	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 21588
+1717750911.733592	CtLwFd2wGV8hHMS4o5	65.49.1.48	42823	203.161.44.208	80	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 21588
+1717753573.853508	C9wtN42QZPhKq0XESf	45.79.172.21	43138	203.161.44.208	80	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 21588
+1717755545.673010	ClLy6W1qm51lh4DAKc	178.79.133.115	56865	203.161.44.208	80	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 21588
+1717755545.984407	CC6zbb3J3LppUMpcR	178.79.133.115	57962	203.161.44.208	80	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 21588
+1717755546.283907	CoS8zh4g73r1haOMgd	178.79.133.115	19872	203.161.44.208	80	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 21588
+1717760719.915524	CNFSTi3KWorEreo2xd	45.33.80.243	26178	203.161.44.208	80	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 21588
+1717760993.772815	CPsJtq4QMgxvn4qDSd	185.216.71.4	45010	203.161.44.208	80	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 21588
+1717767864.325117	C0hxO81lVxTOSVgUre	80.82.77.202	59234	203.161.44.208	80	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 21588
+1717767864.940899	CvdSSC3I3lsSbhFtee	80.82.77.202	16783	203.161.44.208	80	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 21588
+1717782318.517439	COn7lW3Ifno7vjlqV1	45.79.172.21	8526	203.161.44.208	80	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 21588
+1717782498.052202	CjGnKL3vmR9jm0CXlk	199.45.154.78	51736	203.161.44.208	80	tcp	HTTP	not a http request line
+1717782498.052495	CjGnKL3vmR9jm0CXlk	199.45.154.78	51736	203.161.44.208	80	tcp	HTTP	not a http request line
+1717789546.360015	C10zEX2vQsleZ3r895	45.79.181.223	40570	203.161.44.208	80	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 21588
+1717795227.530837	CQYj0s4Xho7yyksEAc	146.190.212.236	42896	203.161.44.208	80	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 21588
+1717795227.683032	CArpV437lmLj7IREIc	146.190.212.236	42910	203.161.44.208	80	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 21588
+1717795228.294804	CjQj442pcjPHMO5Y6b	146.190.212.236	42946	203.161.44.208	80	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 21588
+1717801398.399811	CRTl8M3kJo1Ed9iJsd	162.142.125.39	44086	203.161.44.208	80	tcp	HTTP	not a http request line
+1717801398.400309	CRTl8M3kJo1Ed9iJsd	162.142.125.39	44086	203.161.44.208	80	tcp	HTTP	not a http request line
+1717803969.816637	Cbl80EOgCxbNQVa3d	172.105.128.12	16750	203.161.44.208	80	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 21588
+#close	2024-07-08-06-27-13
