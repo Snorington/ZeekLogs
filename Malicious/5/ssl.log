@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2024-07-08-06-26-46
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	curve	server_name	resumed	last_alert	next_protocol	established	ssl_history	cert_chain_fps	client_cert_chain_fps	sni_matches_cert
+#types	time	string	addr	port	addr	port	string	string	string	string	bool	string	string	bool	string	vector[string]	vector[string]	bool
+1718045001.729819	Clo2fQ1joXTEs3I5t2	10.6.10.101	49724	104.26.12.205	443	TLSv12	TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256	x25519	api.ipify.org	F	-	-	T	CsxknGIti	7520ceae0da24a74628fde1103d318ede003eeac52b95bbf035d1826219b35f6,97d42003e132552946097f20ef955f5b1cd570aa4372d780033a65efbe69758d,3ee0278df71fa3c125c4cd487f01d774694e6fc57e0cd94c24efd769133918e5	(empty)	T
+1718045012.025921	C9Zdz31KQ6vXWS0G0f	10.6.10.101	49725	82.209.169.34	587	TLSv12	TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384	secp256r1	mail.bredband2.com	F	-	-	T	CsxknGIi	6ab79b29546fe2e4d0c993cfebc521c61ee63d4a47b18370f4c3a330a4b909b8,67add1166b020ae61b8f5fc96813c04c2aa589960796865572a3c7e737613dfd	(empty)	T
+#close	2024-07-08-06-26-46

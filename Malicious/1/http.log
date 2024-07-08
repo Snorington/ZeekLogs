@@ -1,0 +1,20 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2024-07-08-06-22-13
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	version	user_agent	origin	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	tags	username	password	proxied	orig_fuids	orig_filenames	orig_mime_types	resp_fuids	resp_filenames	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	string	string	count	count	count	string	count	string	set[enum]	string	string	set[string]	vector[string]	vector[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1719340263.817810	Cyzq1W1fZ0YVnrZMC3	10.6.25.101	50923	85.208.108.30	80	1	GET	85.208.108.30	/neuro.msi	-	1.1	Windows Installer	-	0	1849344	200	OK	-	-	(empty)	-	-	-	-	-	-	FXlrIN2Y3KEEhSfpgk	-	application/msword
+1719340268.730777	CaldXg4NtwaZMwNbwf	10.6.25.101	50925	173.222.253.27	80	1	GET	x1.c.lencr.org	/	-	1.1	Microsoft-CryptoAPI/10.0	-	0	717	200	OK	-	-	(empty)	-	-	-	-	-	-	FcEJ7r3rjLOJ1pFAD1	-	-
+1719340268.849606	CfStp113STqhG2RfA1	10.6.25.101	50926	23.47.52.114	80	1	GET	r11.o.lencr.org	/MFMwUTBPME0wSzAJBgUrDgMCGgUABBQaUrm0WeTDM5ghfoZtS72KO9ZnzgQUCLkRO6XQhRi06g+grZ+GHo78OCcCEgO2f8Ex4ofFCKBN9gRy9ev92w==	-	1.1	Microsoft-CryptoAPI/10.0	-	0	504	200	OK	-	-	(empty)	-	-	-	-	-	-	FfsuK62LcdTwHVThpg	-	application/ocsp-response
+1719340325.073751	CiLusw1EPt5kT5Bk1f	10.6.25.101	50929	23.47.52.114	80	1	GET	r10.o.lencr.org	/MFMwUTBPME0wSzAJBgUrDgMCGgUABBRpD+QVZ+1vf7U0RGQGBm8JZwdxcgQUdKR2KRcYVIUxN75n5gZYwLzFBXICEgM2neHhWnj0pAT8dRauQrO7zw==	-	1.1	Microsoft-CryptoAPI/10.0	-	0	504	200	OK	-	-	(empty)	-	-	-	-	-	-	FXMlgh1oWdYuSb50P4	-	application/ocsp-response
+1719340471.530787	C599dQ1ujPE4PahxJ4	10.6.25.101	50939	23.47.52.114	80	1	GET	r10.o.lencr.org	/MFMwUTBPME0wSzAJBgUrDgMCGgUABBRpD+QVZ+1vf7U0RGQGBm8JZwdxcgQUdKR2KRcYVIUxN75n5gZYwLzFBXICEgNHvQJwq2mtSTryzjsaTgWB9Q==	-	1.1	Microsoft-CryptoAPI/10.0	-	0	504	200	OK	-	-	(empty)	-	-	-	-	-	-	FsMUmU11znSctQN6F9	-	application/ocsp-response
+1719340647.437506	CnM06f3HvxOfIwVV67	10.6.25.101	50946	192.229.211.108	80	1	GET	ocsp.digicert.com	/MFEwTzBNMEswSTAJBgUrDgMCGgUABBSAUQYBMq2awn1Rh6Doh/sBYgFV7gQUA95QNVbRTLtm8KPiGxvDl7I90VUCEAJ0LqoXyo4hxxe7H/z9DKA=	-	1.1	Microsoft-CryptoAPI/10.0	-	0	471	200	OK	-	-	(empty)	-	-	-	-	-	-	FDNafy2grQ31K2oNuj	-	application/ocsp-response
+1719340676.314630	CSL3LE1vSArkXYa9ng	10.6.25.101	50953	192.229.211.108	80	1	GET	ocsp.digicert.com	/MFEwTzBNMEswSTAJBgUrDgMCGgUABBQ50otx/h0Ztl+z8SiPI7wEWVxDlQQUTiJUIBiV5uNu5g/6+rkS7QYXjzkCEAz1vQYrVgL0erhQLCPM8GY=	-	1.1	Microsoft-CryptoAPI/10.0	-	0	471	200	OK	-	-	(empty)	-	-	-	-	-	-	FTCtBk3U94zvMlJ7fg	-	application/ocsp-response
+1719343391.745833	C1HKqs1wrMLha54t7b	10.6.25.101	51071	151.101.182.172	80	1	GET	ctldl.windowsupdate.com	/msdownload/update/v3/static/trustedr/en/disallowedcertstl.cab?65d6f990921ff687	-	1.1	Microsoft-CryptoAPI/10.0	-	0	0	304	Not Modified	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1719343391.796874	C1HKqs1wrMLha54t7b	10.6.25.101	51071	151.101.182.172	80	2	GET	ctldl.windowsupdate.com	/msdownload/update/v3/static/trustedr/en/pinrulesstl.cab?4d5734246c559f61	-	1.1	Microsoft-CryptoAPI/10.0	-	0	0	304	Not Modified	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1719344040.662237	CskNP11rbe92SnuT3j	10.6.25.101	51089	173.222.253.27	80	1	GET	x1.c.lencr.org	/	-	1.1	Microsoft-CryptoAPI/10.0	-	0	0	304	Not Modified	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1719344162.665519	CEKz9q1w3grDgjFDw3	10.6.25.101	51094	151.101.182.172	80	1	GET	ctldl.windowsupdate.com	/msdownload/update/v3/static/trustedr/en/authrootstl.cab?24387e543f984d38	-	1.1	Microsoft-CryptoAPI/10.0	-	0	0	304	Not Modified	-	-	(empty)	-	-	-	-	-	-	-	-	-
+#close	2024-07-08-06-22-13

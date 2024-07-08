@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	analyzer
+#open	2024-07-08-06-22-13
+#fields	ts	cause	analyzer_kind	analyzer_name	uid	fuid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	failure_reason	failure_data
+#types	time	string	string	string	string	string	addr	port	addr	port	string	string
+1719344484.295906	violation	protocol	SSL	CbGGXKAvYtfqcv895	-	10.6.25.101	51118	64.7.198.158	443	Invalid headers in SSL connection. Head1: 4, head2: 182, head3: 174	-
+1719345164.997749	violation	protocol	SSL	C6wZ6y4O1lt3p3rT7b	-	10.6.25.101	51140	64.7.198.158	443	Invalid headers in SSL connection. Head1: 178, head2: 47, head3: 223	-
+#close	2024-07-08-06-22-13

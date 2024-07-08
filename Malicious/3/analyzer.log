@@ -1,0 +1,18 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	analyzer
+#open	2024-07-08-06-22-36
+#fields	ts	cause	analyzer_kind	analyzer_name	uid	fuid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	failure_reason	failure_data
+#types	time	string	string	string	string	string	addr	port	addr	port	string	string
+1718664171.024881	violation	protocol	SSL	ClaLgBPQlVvuMZ3Fb	-	10.6.17.101	49813	34.130.217.52	443	Invalid version in TLS connection. Version: 256	-
+1718664369.901345	violation	protocol	SSL	Co5SvXN8uqwVsYnIa	-	10.6.17.101	64836	34.130.217.52	443	Invalid headers in SSL connection. Head1: 5, head2: 0, head3: 0	-
+1718664553.688502	violation	protocol	SSL	CGFnDw2Gzqk5qTGvf8	-	10.6.17.101	65031	34.130.217.52	443	Invalid version in TLS connection. Version: 1280	-
+1718664737.712350	violation	protocol	SSL	C6Yl0d41dxD4u12ip6	-	10.6.17.101	65043	34.130.217.52	443	Invalid headers in SSL connection. Head1: 6, head2: 0, head3: 0	-
+1718664921.908098	violation	protocol	SSL	CFVYyr26A6Er6vSvmg	-	10.6.17.101	65050	34.130.217.52	443	Invalid headers in SSL connection. Head1: 6, head2: 0, head3: 0	-
+1718665105.804689	violation	protocol	SSL	CNs42i2pdVcWhJzD6l	-	10.6.17.101	65058	34.130.217.52	443	Invalid version in TLS connection. Version: 1536	-
+1718665289.660959	violation	protocol	SSL	CL9YEc1eehhAFA7Ifi	-	10.6.17.101	65062	34.130.217.52	443	Invalid version in TLS connection. Version: 256	-
+1718665473.526861	violation	protocol	SSL	CikR0xAJmpRsYe3fe	-	10.6.17.101	65067	34.130.217.52	443	Invalid version in TLS connection. Version: 1280	-
+1718665657.749555	violation	protocol	SSL	Cpd6is2mhre9K0dYzk	-	10.6.17.101	65075	34.130.217.52	443	Invalid headers in SSL connection. Head1: 1, head2: 0, head3: 0	-
+#close	2024-07-08-06-22-37

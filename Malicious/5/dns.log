@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2024-07-08-06-26-46
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	rtt	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	interval	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1718045001.641822	C3aF6J2oZgZYdF6RRc	10.6.10.101	59817	10.6.10.1	53	udp	4581	0.023969	api.ipify.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	104.26.12.205,172.67.74.152,104.26.13.205	5.000000,5.000000,5.000000	F
+1718045004.957139	C3aF6J2oZgZYdF6RRc	10.6.10.101	59817	10.6.10.1	53	udp	8110	0.189188	mail.bredband2.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	cpanel.bredband2.com,82.209.169.34	5.000000,5.000000	F
+1718045066.569595	CkNCxidfnf82tVu5b	10.6.10.101	60920	10.6.10.1	53	udp	20772	0.003483	mail.bredband2.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	cpanel.bredband2.com,82.209.169.34	5.000000,5.000000	F
+#close	2024-07-08-06-26-46

@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	quic
+#open	2024-07-08-06-22-36
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	client_initial_dcid	client_scid	server_scid	server_name	client_protocol	history
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	string
+1718664115.112183	CTh67D3yucpa1NR7U9	10.6.17.101	54613	23.198.7.167	443	1	a891fcc67327f427	(empty)	16f605f980c14126	-	-	IIIIiiiishhIHhHH
+#close	2024-07-08-06-22-37

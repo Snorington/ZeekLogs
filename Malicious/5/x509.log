@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	x509
+#open	2024-07-08-06-26-46
+#fields	ts	fingerprint	certificate.version	certificate.serial	certificate.subject	certificate.issuer	certificate.not_valid_before	certificate.not_valid_after	certificate.key_alg	certificate.sig_alg	certificate.key_type	certificate.key_length	certificate.exponent	certificate.curve	san.dns	san.uri	san.email	san.ip	basic_constraints.ca	basic_constraints.path_len	host_cert	client_cert
+#types	time	string	count	string	string	string	time	time	string	string	string	count	string	string	vector[string]	vector[string]	vector[string]	vector[addr]	bool	count	bool	bool
+1718045001.800858	7520ceae0da24a74628fde1103d318ede003eeac52b95bbf035d1826219b35f6	3	BE74AC3A27F88EAB13124D1246D5D0A7	CN=ipify.org	CN=GTS CA 1P5,O=Google Trust Services LLC,C=US	1716160677.000000	1723936676.000000	rsaEncryption	sha256WithRSAEncryption	rsa	2048	65537	-	ipify.org,*.ipify.org	-	-	-	F	-	T	F
+1718045001.800858	97d42003e132552946097f20ef955f5b1cd570aa4372d780033a65efbe69758d	3	0203BC50A32753F0918022EDF1	CN=GTS CA 1P5,O=Google Trust Services LLC,C=US	CN=GTS Root R1,O=Google Trust Services LLC,C=US	1597276842.000000	1822262442.000000	rsaEncryption	sha256WithRSAEncryption	rsa	2048	65537	-	-	-	-	-	T	0	F	F
+1718045001.800858	3ee0278df71fa3c125c4cd487f01d774694e6fc57e0cd94c24efd769133918e5	3	77BD0D6CDB36F91AEA210FC4F058D30D	CN=GTS Root R1,O=Google Trust Services LLC,C=US	CN=GlobalSign Root CA,OU=Root CA,O=GlobalSign nv-sa,C=BE	1592524842.000000	1832630442.000000	rsaEncryption	sha256WithRSAEncryption	rsa	4096	65537	-	-	-	-	-	T	-	F	F
+1718045012.332652	6ab79b29546fe2e4d0c993cfebc521c61ee63d4a47b18370f4c3a330a4b909b8	3	03CB0B3763EEC6BB6DCCFE82A9B7FA4BA1C1	CN=bredband2.com	CN=R3,O=Let's Encrypt,C=US	1712213927.000000	1719989926.000000	rsaEncryption	sha256WithRSAEncryption	rsa	4096	65537	-	*.bredband2.com,bredband2.com	-	-	-	F	-	T	F
+1718045012.332652	67add1166b020ae61b8f5fc96813c04c2aa589960796865572a3c7e737613dfd	3	912B084ACF0C18A753F6D62E25A75F5A	CN=R3,O=Let's Encrypt,C=US	CN=ISRG Root X1,O=Internet Security Research Group,C=US	1599177600.000000	1757952000.000000	rsaEncryption	sha256WithRSAEncryption	rsa	2048	65537	-	-	-	-	-	T	0	F	F
+#close	2024-07-08-06-26-46
